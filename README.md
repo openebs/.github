@@ -13,7 +13,7 @@ Building an Enterprise Data Storage platform is complex, and areas of the Data &
 <BR>
 <BR>
 ## Project structure
-As a project, OpenEBS has kept up a steady pace of evolution in order to keep in alignment with K8s advancment overall and with the rapid changing pace of technologies, hardware and software innovations in the data stroage industry. The proejct is divided into 2 main areas:<BR>
+As a project, OpenEBS hasmaintained a steady pace of evolution in order to keep in alignment with K8s advancment overall and with the rapid changing pace of technologies, hardware and software innovations in the data stroage industry. The proejct is divided into 2 main deployable Editions :<BR>
 | ID  | Edition name  |
 |-----|---------------|
 |  1  |  Legacy       |
@@ -21,7 +21,7 @@ As a project, OpenEBS has kept up a steady pace of evolution in order to keep in
 <BR>
 
 ## LEGACY
-LEGACY consists of a traditional Data-Engines that we experimented with early on. These Data-Engines have a number of opensoruce techologies embeded inside them, and are a great intro into the world of simple K8s storage services. LEGACY helped us learn, iterate and develop our core storage K8s strategy, as well as decern how users want & need to interact with K8s storage services. LEGACY also helped to reveal key areas where K8s is lacking in storage/datastore services and what areas of K8s we could optomize; and how we can provide the best value into the K8s storage layers.<BR>
+LEGACY consists of Data-Engines that we experimented with early on. These Data-Engines have a number of opensoruce techologies embeded inside them, and are a great intro into the world of simple K8s storage services. LEGACY helped us learn, iterate and develop our core storage K8s strategy, as well as decern how users want & need to interact with K8s storage services. LEGACY also helped to reveal key areas within K8s that are lacking in storage/datastore services,  what areas of K8s we could optomize; and how we can provide the best value into the various K8s storage layers.<BR>
 <BR>
 There are 3 main Data-Engines in LEGACY:<BR>
 | ID  | Data-Eegines      | Embeded tech stack   | Status                           |
