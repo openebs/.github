@@ -16,13 +16,17 @@ Building an Enterprise Data Storage platform is complex, and areas of the Data &
 <BR>
 ## Project structure
 As a project, OpenEBS has kept up a steady pace of evolution in order to keep in alignment with K8s advancment overall and with the rapid changing pace of technologies, hardware and software innovations in the data stroage industry. The proejct is divided into 2 main areas:
-* Legacy
-* Standard
+| ID    Edition name  |
+|-----|---------------|
+|  1  |  Legacy       |
+|  2  |  Standard     |
+
 <BR>
 <BR>
-* 'LEGACY' consists of a traditional Data-Engines that we experimented with early on. These Data-Engines have a number of opensoruce techologies embeded inside them, and are great intro into the world of simple K8s storage services. LEGACY helped us learn, iterate and develope our  core storage technology strategy as well as decern how users want & need to interact with K8s storage services. LEGACY also help reveal the areas of where K8s is lacking in and what areas of K8s we could optomize; and how we can provide the best value into the K8s storage layers.<BR>
+## LEGACY
+LEGACY consists of a traditional Data-Engines that we experimented with early on. These Data-Engines have a number of opensoruce techologies embeded inside them, and are a great intro into the world of simple K8s storage services. LEGACY helped us learn, iterate and develop our core storage K8s strategy, as well as decern how users want & need to interact with K8s storage services. LEGACY also help reveal key areas where K8s is lacking in storage/datastore services and what areas of K8s we could optomize; and how we can provide the best value into the K8s storage layers.<BR>
 <BR>
-There are 3 main 'Data-Engines' in LEGACY:
+There are 3 main Data-Engines in LEGACY:
     * Jiva
     * cStor
     * NFS Provisioner
@@ -30,11 +34,11 @@ There are 3 main 'Data-Engines' in LEGACY:
 <BR>
 <BR>
 
-* STANDARD
-The is our Ultra modern Datastore stack that is strongly aligned with the cutting edge direction of storage use-cases in the K8s industry. It is designed to faciliate modern K8s datastore archiectures, key K8s I/O patterns, K8s data access methods, K8s data use-cases and where K8s Datastore applications are heading.
-* STANDARD is optomized for NVMe and SSD Flash and integrates ultra modern extremly high performance storage technologies at its core...
-    * At its core, we use the High performance INTEL SPDK kernel (https://spdk.io) (and opensource project)
-    * Hyper modern IO_Uring Linux Kernel (https://github.com/axboe/liburing) Async polling-mode I/O Interface
+## STANDARD
+STANDARD is our Ultra modern Datastore stack that is strongly aligned with the cutting edge direction of storage use-cases in the K8s industry. It is designed to faciliate modern K8s datastore archiectures, key K8s I/O patterns, K8s data access methods, K8s data use-cases and where K8s Datastore applications are heading.
+* STANDARD is optomized for NVMe and SSD Flash and integrates ultra modern extremme high performance storage technologies at its core...
+    * It uses the High performance INTEL SPDK kernel [spdk](https://spdk.io) (which is an opensource NVMe project)
+    * The hyper modern IO_Uring Linux Kernel [io_uring} (https://github.com/axboe/liburing) Async polling-mode I/O Interface
     * Native abilties for RDMA and Zero-Copy I/O
     * NVMe-oF TCP Block storage Hyper-converged data fabric
     * Block layer volume replication
@@ -55,5 +59,5 @@ There are 2 Data-Engines within the 'STANDARD' Edition:
     * LocalPV-HostPath
     * LocalPV-Device
 <BR>
-'Note': Our Roadmap plans to provide a new K8s Local-PV entity called 'Hyper-Local-PV'.<BR>
+Note: Our Roadmap plans to provide a new K8s Local-PV entity called Hyper-Local-PV.<BR>
 This new innovative K8s volume type allows High performance Maystor block storage devices to be deployed and accessed as Local Non-replicated Local-PV's and inherrit all the Enterprise Data Mgmt capabilities of Maystor Replciaetd farbic voluems (while operating in non-replciated node local mode). Please see the roadmap for details.
