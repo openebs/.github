@@ -51,11 +51,11 @@ There are 2 Data-Engines within the **STANDARD** Edition:
 |  1  |  **Mayastor**      | Replicated data volumes (a Cluster wide Data fabric)   | Stable, deployable in PROD. Very active development        |
 |     | &nbsp;             |                                                        |                                                            |
 |  2  |  **Local-PV**      | Non-replicated node local data volumes                 |                                                            |
-|     |  LVM Local-PV      | for tight integration with LVM datastor deployments    | Stable, deployable in PROD, being integarted into STANDARD |
-|     |  ZFS Local-PV      | for tight integration with ZFS datastor deployments    | Stable, deployable in PROD, being integarted into STANDARD |
-|     |  Local-PV-HostPath | for integration with local node hostpath (/mnt/fs1)    | Stable, deployable in PROD, being integarted into STANDARD |
-|     |  Device Local-PV   | for integration with explicit device paths (/dev/sdb)  | Stable, deployable in PROD, being integarted into STANDARD |
-|     |  Local-PV-Device   | for integration with NDM managed devices               | Stable, deployable in PROD, being integarted into STANDARD |
+|     |  LVM Local-PV      | for integration with LVM datastor deployments          | Stable, deployable in PROD, undergoing integration         |
+|     |  ZFS Local-PV      | for integration with ZFS datastor deployments          | Stable, deployable in PROD, undergoing integration         |
+|     |  Local-PV-HostPath | for integration with local node hostpath (/mnt/fs1)    | Stable, deployable in PROD, undergoing integration         |
+|     |  Device Local-PV   | for integration with explicit device paths (/dev/sdb)  | Stable, Not deployable in PROD, integration testing        |
+|     |  Local-PV-Device   | for integration with NDM managed devices               | Stable, Not deployable in PROD, integration testing        |
 |     |  RawFile-Device    | for integration with Soft Luns devices on a filesystem | Stable, deployable in PROD, being integarted into STANDARD |
 
 <BR>
