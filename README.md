@@ -45,7 +45,7 @@ There are 3 main Data-Engines in LEGACY:<BR>
     * Native Block layer Snapshtos and Clones
  <BR>	
 
-There are 2 Data-Engines within the 'STANDARD' Edition:
+There are 2 Data-Engines within the **STANDARD** Edition:
 | ID  | Data-Eegines       | Type of data services                                  |
 |-----|--------------------|--------------------------------------------------------|
 |  1  |  **Mayastor**      | Replicated data volumes (a Cluster wide Data fabric)   |
