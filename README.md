@@ -50,15 +50,15 @@ There are 3 main Data-Engines in LEGACY:<BR>
 There are 2 Data-Engines within the 'STANDARD' Edition:
 | ID  | Data-Eegines       | Type of data services                                  |
 |-----|--------------------|--------------------------------------------------------|
-|  1  |  Mayastor          | Replicated data volumes (a Cluster wide Data fabric)   |
+|  1  |  **Mayastor**      | Replicated data volumes (a Cluster wide Data fabric)   |
 |     | &nbsp;             |                                                        |
-|  2  |  Local-PV          | Non-replicated node local data volumes                 |
+|  2  |  **Local-PV**      | Non-replicated node local data volumes                 |
 |     |  LVM Local-PV      | for tight integration with LVM datastor deployments    |
 |     |  ZFS Local-PV      | for tight integration with ZFS datastor deployments    |
 |     |  Local-PV-HostPath | for integration with local node hostpath (/mnt/fs1)    |
+|     |  Device Local-PV   | for integration with explicit device paths (/dev/sdb)  |
 |     |  Local-PV-Device   | for integration with NDM managed devices               |
 |     |  RawFile-Device    | for integration with Soft Luns devices on a filesystem |
-|     |  Device Local-PV   | for integration with explicit device paths (/dev/sdb)  |
 
 <BR>
 Note: Our Roadmap plans to provide a new K8s Local-PV entity called Hyper-Local-PV.<BR>
