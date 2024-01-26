@@ -15,7 +15,8 @@ Building an Enterprise Data Storage platform is complex, and areas of the Data &
 <BR>
 <BR>
 ## Project structure
-As a project, OpenEBS has kept up a steady pace of evolution in order to keep in alignment with K8s advancment overall and with the rapid changing pace of technologies, hardware and software innovations in the data stroage industry. The proejct is divided into 2 main areas:
+As a project, OpenEBS has kept up a steady pace of evolution in order to keep in alignment with K8s advancment overall and with the rapid changing pace of technologies, hardware and software innovations in the data stroage industry. The proejct is divided into 2 main areas:<BR>
+
 | ID    Edition name  |
 |-----|---------------|
 |  1  |  Legacy       |
@@ -23,13 +24,15 @@ As a project, OpenEBS has kept up a steady pace of evolution in order to keep in
 
 <BR>
 <BR>
+
 ## LEGACY
 LEGACY consists of a traditional Data-Engines that we experimented with early on. These Data-Engines have a number of opensoruce techologies embeded inside them, and are a great intro into the world of simple K8s storage services. LEGACY helped us learn, iterate and develop our core storage K8s strategy, as well as decern how users want & need to interact with K8s storage services. LEGACY also help reveal key areas where K8s is lacking in storage/datastore services and what areas of K8s we could optomize; and how we can provide the best value into the K8s storage layers.<BR>
 <BR>
-There are 3 main Data-Engines in LEGACY:
-    * Jiva
-    * cStor
-    * NFS Provisioner
+There are 3 main Data-Engines in LEGACY:<BR>
+
+* Jiva
+* cStor
+* NFS Provisioner
 
 <BR>
 <BR>
@@ -37,8 +40,8 @@ There are 3 main Data-Engines in LEGACY:
 ## STANDARD
 STANDARD is our Ultra modern Datastore stack that is strongly aligned with the cutting edge direction of storage use-cases in the K8s industry. It is designed to faciliate modern K8s datastore archiectures, key K8s I/O patterns, K8s data access methods, K8s data use-cases and where K8s Datastore applications are heading.
 * STANDARD is optomized for NVMe and SSD Flash and integrates ultra modern extremme high performance storage technologies at its core...
-    * It uses the High performance INTEL SPDK kernel [spdk](https://spdk.io) (which is an opensource NVMe project)
-    * The hyper modern IO_Uring Linux Kernel [io_uring} (https://github.com/axboe/liburing) Async polling-mode I/O Interface
+    * It uses the High performance [SPDK](https://spdk.io) storage stack - (SPDK is an opensource NVMe project initiated by INTEL)
+    * The hyper modern [IO_Uring](https://github.com/axboe/liburing) Linux Kernel Async polling-mode I/O Interface - (fastest kernel I/O mode possible)
     * Native abilties for RDMA and Zero-Copy I/O
     * NVMe-oF TCP Block storage Hyper-converged data fabric
     * Block layer volume replication
