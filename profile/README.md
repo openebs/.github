@@ -40,9 +40,9 @@ There are 3 main Data-Engines in LEGACY:<BR>
     * NVMe-oF TCP Block storage Hyper-converged data fabric
     * Block layer volume replication
     * Logical volumes and Diskpool based data managment
-    * a Native high peformance Blobstore
+    * a Native high peformance [Blobstore](https://spdk.io/doc/blob.html)
     * Native Block layer Thin provisoning
-    * Native Block layer Snapshtos and Clones
+    * Native Block layer Snapshots and Clones
  <BR>	
 
 There are 2 Data-Engines within the **STANDARD** Edition:
