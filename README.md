@@ -2,7 +2,7 @@
 
 [![OpenEBS Social Banner](https://github.com/openebs/website/blob/main/website/public/images/png/openebs_github_main_banner_HERO_1.png)](https://www.openebs.io/)
 
-# [openebs.io](https://www.openebs.io/ 
+# [openebs.io](https://www.openebs.io/)
 OpenEBS is a free openesource Stateful Persistent Data Storage platform for Kubernetes.<BR>
 We are CNCF member project, with a large global community of K8s Datastorage users.<BR>
 <BR>
