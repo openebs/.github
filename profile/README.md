@@ -17,7 +17,7 @@ As a project, OpenEBS hasmaintained a steady pace of evolution in order to keep 
 | ID  | Edition name  |
 |-----|---------------|
 |  1  |  Legacy       |
-|  2  |  Standard     |
+|  2  | [Standard](https://github.com/openebs/mayastor)     |
 <BR>
 
 ## LEGACY
@@ -45,7 +45,7 @@ There are 3 main Data-Engines in LEGACY:<BR>
     * Native Block layer Snapshots and Clones
  <BR>	
 
-There are 2 Data-Engines within the **STANDARD** Edition:
+There are 2 Data-Engines within the [**STANDARD**](https://github.com/openebs/mayastor) Edition:
 | ID  | Data-Eegines       | Type of data services                                  | Status                                                     |
 |-----|--------------------|--------------------------------------------------------|------------------------------------------------------------|
 |  1  |  **Mayastor**      | Replicated data volumes (a Cluster wide Data fabric)   | Stable, deployable in PROD. Very active development        |
