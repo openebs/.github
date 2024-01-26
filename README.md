@@ -16,25 +16,21 @@ Building an Enterprise Data Storage platform is complex, and areas of the Data &
 <BR>
 ## Project structure
 As a project, OpenEBS has kept up a steady pace of evolution in order to keep in alignment with K8s advancment overall and with the rapid changing pace of technologies, hardware and software innovations in the data stroage industry. The proejct is divided into 2 main areas:<BR>
-<BR>
 | ID  | Edition name  |
 |-----|---------------|
 |  1  |  Legacy       |
 |  2  |  Standard     |
-
-<BR>
 <BR>
 
 ## LEGACY
 LEGACY consists of a traditional Data-Engines that we experimented with early on. These Data-Engines have a number of opensoruce techologies embeded inside them, and are a great intro into the world of simple K8s storage services. LEGACY helped us learn, iterate and develop our core storage K8s strategy, as well as decern how users want & need to interact with K8s storage services. LEGACY also help reveal key areas where K8s is lacking in storage/datastore services and what areas of K8s we could optomize; and how we can provide the best value into the K8s storage layers.<BR>
 <BR>
 There are 3 main Data-Engines in LEGACY:<BR>
-
-* Jiva
-* cStor
-* NFS Provisioner
-
-<BR>
+| ID  | Data-Eegines      | Embeded tech stack   |
+|-----|-------------------|----------------------|
+|  1  |  Jiva             | iSCSI                |
+|  2  |  cStor            | Open ZFS             |
+|  2  |  NFS Provisioner  | NFS userspace server |
 <BR>
 
 ## STANDARD
@@ -49,18 +45,21 @@ STANDARD is our Ultra modern Datastore stack that is strongly aligned with the c
     * a Native high peformance Blobstore
     * Native Block layer Thin provisoning
     * Native Block layer Snapshtos and Clones
-<BR>	
+ <BR>	
+
 There are 2 Data-Engines within the 'STANDARD' Edition:
-* Mayastor
-    * for Replicated data volumes (a Cluster wide Data fabric)
-* Local-PV (Non-replicated node local data volumes)
-    * Deployment modes are...
-    * LVM LocalPV
-    * ZFS LocalPV
-    * Device LocalPV
-    * RawFile LocalPV
-    * LocalPV-HostPath
-    * LocalPV-Device
+| ID  | Data-Eegines       | Type of data services                                  |
+|-----|--------------------|--------------------------------------------------------|
+|  1  |  Mayastor          | Replicated data volumes (a Cluster wide Data fabric)   |
+|     |                    |                                                        |
+|  2  |  Local-PV          | Non-replicated node local data volumes                 |
+|  -  |  LVM Local-PV      | for tight integration with LVM datastor deployments    |
+|  -  |  ZFS Local-PV      | for tight integration with ZFS datastor deployments    |
+|  -  |  Local-PV-HostPath | for integration with local node hostpath (/mnt/fs1)    |
+|  -  |  Local-PV-Device   | for integration with NDM managed devices               |
+|  -  |  RawFile-Device    | for integration with Soft Luns devices on a filesystem |
+|  -  |  Device Local-PV   | for integration with explicit device paths (/dev/sdb)  |
+
 <BR>
 Note: Our Roadmap plans to provide a new K8s Local-PV entity called Hyper-Local-PV.<BR>
 This new innovative K8s volume type allows High performance Maystor block storage devices to be deployed and accessed as Local Non-replicated Local-PV's and inherrit all the Enterprise Data Mgmt capabilities of Maystor Replciaetd farbic voluems (while operating in non-replciated node local mode). Please see the roadmap for details.
