@@ -56,7 +56,7 @@ There are 2 Data-Engines within the **STANDARD** Edition:
 |     |  Local-PV-HostPath | for integration with local node hostpath (/mnt/fs1)    | Stable, deployable in PROD, undergoing integration         |
 |     |  Device Local-PV   | for integration with explicit device paths (/dev/sdb)  | Stable, Not deployable in PROD, integration testing        |
 |     |  Local-PV-Device   | for integration with NDM managed devices               | Stable, Not deployable in PROD, integration testing        |
-|     |  RawFile-Device    | for integration with Soft Luns devices on a filesystem | Stable, deployable in PROD, being integarted into STANDARD |
+|     |  RawFile-Device    | for integration with Soft Luns devices on a filesystem | Stable, deployable in PROD, undergoing integration         |
 
 <BR>
 Note: Our Roadmap plans to provide a new K8s Local-PV entity called Hyper-Local-PV.<BR>
