@@ -23,18 +23,18 @@ As a project, OpenEBS has kept up a steady pace of evolution in order to keep in
 <BR>
 
 ## LEGACY
-LEGACY consists of a traditional Data-Engines that we experimented with early on. These Data-Engines have a number of opensoruce techologies embeded inside them, and are a great intro into the world of simple K8s storage services. LEGACY helped us learn, iterate and develop our core storage K8s strategy, as well as decern how users want & need to interact with K8s storage services. LEGACY also help reveal key areas where K8s is lacking in storage/datastore services and what areas of K8s we could optomize; and how we can provide the best value into the K8s storage layers.<BR>
+LEGACY consists of a traditional Data-Engines that we experimented with early on. These Data-Engines have a number of opensoruce techologies embeded inside them, and are a great intro into the world of simple K8s storage services. LEGACY helped us learn, iterate and develop our core storage K8s strategy, as well as decern how users want & need to interact with K8s storage services. LEGACY also helped to reveal key areas where K8s is lacking in storage/datastore services and what areas of K8s we could optomize; and how we can provide the best value into the K8s storage layers.<BR>
 <BR>
 There are 3 main Data-Engines in LEGACY:<BR>
-| ID  | Data-Eegines      | Embeded tech stack   |
-|-----|-------------------|----------------------|
-|  1  |  Jiva             | iSCSI                |
-|  2  |  cStor            | Open ZFS             |
-|  2  |  NFS Provisioner  | NFS userspace server |
+| ID  | Data-Eegines      | Embeded tech stack   | Status                           |
+|-----|-------------------|----------------------|----------------------------------|
+|  1  |  Jiva             | iSCSI                | We plan to sunset LEGACY in 2024 |
+|  2  |  cStor            | Open ZFS             | We plan to sunset LEGACY in 2024 |
+|  2  |  NFS Provisioner  | NFS userspace server | We plan to sunset LEGACY in 2024 |
 <BR>
 
 ## STANDARD
-STANDARD is our Ultra modern Datastore stack that is strongly aligned with the cutting edge direction of storage use-cases in the K8s industry. It is designed to faciliate modern K8s datastore archiectures, key K8s I/O patterns, K8s data access methods, K8s data use-cases and where K8s Datastore applications are heading.
+**STANDARD** is our Ultra modern Datastore stack that is strongly aligned with the cutting edge direction of storage use-cases in the K8s industry. It is designed to faciliate modern K8s datastore archiectures, key K8s I/O patterns, K8s data access methods, K8s data use-cases and where K8s Datastore applications are heading.
 * STANDARD is optomized for NVMe and SSD Flash and integrates ultra modern extremme high performance storage technologies at its core...
     * It uses the High performance [SPDK](https://spdk.io) storage stack - (SPDK is an opensource NVMe project initiated by INTEL)
     * The hyper modern [IO_Uring](https://github.com/axboe/liburing) Linux Kernel Async polling-mode I/O Interface - (fastest kernel I/O mode possible)
@@ -51,14 +51,14 @@ There are 2 Data-Engines within the 'STANDARD' Edition:
 | ID  | Data-Eegines       | Type of data services                                  |
 |-----|--------------------|--------------------------------------------------------|
 |  1  |  Mayastor          | Replicated data volumes (a Cluster wide Data fabric)   |
-|     |                    |                                                        |
+|     | &nbsp;             |                                                        |
 |  2  |  Local-PV          | Non-replicated node local data volumes                 |
-|  -  |  LVM Local-PV      | for tight integration with LVM datastor deployments    |
-|  -  |  ZFS Local-PV      | for tight integration with ZFS datastor deployments    |
-|  -  |  Local-PV-HostPath | for integration with local node hostpath (/mnt/fs1)    |
-|  -  |  Local-PV-Device   | for integration with NDM managed devices               |
-|  -  |  RawFile-Device    | for integration with Soft Luns devices on a filesystem |
-|  -  |  Device Local-PV   | for integration with explicit device paths (/dev/sdb)  |
+|     |  LVM Local-PV      | for tight integration with LVM datastor deployments    |
+|     |  ZFS Local-PV      | for tight integration with ZFS datastor deployments    |
+|     |  Local-PV-HostPath | for integration with local node hostpath (/mnt/fs1)    |
+|     |  Local-PV-Device   | for integration with NDM managed devices               |
+|     |  RawFile-Device    | for integration with Soft Luns devices on a filesystem |
+|     |  Device Local-PV   | for integration with explicit device paths (/dev/sdb)  |
 
 <BR>
 Note: Our Roadmap plans to provide a new K8s Local-PV entity called Hyper-Local-PV.<BR>
