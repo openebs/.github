@@ -59,5 +59,5 @@ There are 2 Data-Engines within the **STANDARD** Edition:
 |     |  RawFile-Device    | for integration with Soft Luns devices on a filesystem | Stable, deployable in PROD, undergoing integration         |
 
 <BR>
-_Note_: Our Roadmap plans to provide a new K8s Local-PV entity called **Hyper-Local-PV**.<BR>
+*Note* : Our Roadmap plans to provide a new K8s Local-PV entity called **Hyper-Local-PV**.<BR>
 This new innovative K8s volume type allows High performance Maystor block storage devices to be deployed and accessed as Local Non-replicated Local-PV's and inherrit all the Enterprise Data Mgmt capabilities of Maystor Replicaetd  volumes (while operating in non-replciated node local mode). Please see the roadmap for details.
