@@ -6,7 +6,7 @@ OpenEBS is a free openesource Stateful Persistent Data Storage platform for Kube
 <BR>
 Our project team was an early pioneering inventor of K8s **Container Native Storage** services. We concieved the vision of a K8s Stateful Persistent data platform that is tightly integrated and embeded natively into the core of K8s.<BR>
 <BR>
-We have designd and built an innovative ultra High-performance Enterprise grade Block-mode storage Hyper-converged Data Fabric that augments the core storage services of K8s with Stateful Persistence, Enterprise Data mgmt, SSD/NVMe optomized I/O services,
+We have designd and built an innovative ultra High-performance Enterprise grade Block-mode storage Hyper-converged Data Fabric that augments the core storage services of K8s with Stateful Persistence, Enterprise Data mgmt, SSD/NVMe optimized I/O services,
 Replicated Data volumes, Thin Provisioning, Snapshot and Clones; and many other critical data storage services that don't come in K8s out-of-the-box.<BR>
 <BR>
 Building an Enterprise Data Storage platform is complex, and areas of the Data & I/O stack could be considerd 'Rocket science'. Our global team comes from many areas of the data storage industry and our project is sponsored by many innovative data storage companies within the industry, as well as many amazing individuals. Coding, contribuing, brainstorming ideas to the project are all welcome.<BR>
@@ -21,7 +21,7 @@ As a project, OpenEBS hasmaintained a steady pace of evolution in order to keep 
 <BR>
 
 ## LEGACY
-LEGACY consists of Data-Engines that we experimented with early on. These Data-Engines have a number of opensoruce techologies embeded inside them, and are a great intro into the world of simple K8s storage services. LEGACY helped us learn, iterate and develop our core storage K8s strategy, as well as decern how users want & need to interact with K8s storage services. LEGACY also helped to reveal key areas within K8s that are lacking in storage/datastore services,  what areas of K8s we could optomize; and how we can provide the best value into the various K8s storage layers.<BR>
+LEGACY consists of Data-Engines that we experimented with early on. These Data-Engines have a number of opensoruce techologies embeded inside them, and are a great intro into the world of simple K8s storage services. LEGACY helped us learn, iterate and develop our core storage K8s strategy, as well as decern how users want & need to interact with K8s storage services. LEGACY also helped to reveal key areas within K8s that are lacking in storage/datastore services,  what areas of K8s we could optimize; and how we can provide the best value into the various K8s storage layers.<BR>
 <BR>
 There are 3 main Data-Engines in LEGACY:<BR>
 | ID  | Data-Eegines      | Embeded tech stack   | Status                           |
@@ -33,7 +33,7 @@ There are 3 main Data-Engines in LEGACY:<BR>
 
 ## STANDARD
 **STANDARD** is our Ultra modern Datastore stack that is strongly aligned with the cutting edge direction of storage use-cases in the K8s industry. It is designed to faciliate modern K8s datastore archiectures, key K8s I/O patterns, K8s data access methods, K8s data use-cases and where K8s Datastore applications are heading.
-* STANDARD is optomized for NVMe and SSD Flash and integrates ultra modern extremme high performance storage technologies at its core...
+* STANDARD is optimized for NVMe and SSD Flash and integrates ultra modern extremme high performance storage technologies at its core...
     * It uses the High performance [SPDK](https://spdk.io) storage stack - (SPDK is an opensource NVMe project initiated by INTEL)
     * The hyper modern [IO_Uring](https://github.com/axboe/liburing) Linux Kernel Async polling-mode I/O Interface - (fastest kernel I/O mode possible)
     * Native abilties for RDMA and Zero-Copy I/O
