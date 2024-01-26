@@ -46,17 +46,17 @@ There are 3 main Data-Engines in LEGACY:<BR>
  <BR>	
 
 There are 2 Data-Engines within the **STANDARD** Edition:
-| ID  | Data-Eegines       | Type of data services                                  |
-|-----|--------------------|--------------------------------------------------------|
-|  1  |  **Mayastor**      | Replicated data volumes (a Cluster wide Data fabric)   |
-|     | &nbsp;             |                                                        |
-|  2  |  **Local-PV**      | Non-replicated node local data volumes                 |
-|     |  LVM Local-PV      | for tight integration with LVM datastor deployments    |
-|     |  ZFS Local-PV      | for tight integration with ZFS datastor deployments    |
-|     |  Local-PV-HostPath | for integration with local node hostpath (/mnt/fs1)    |
-|     |  Device Local-PV   | for integration with explicit device paths (/dev/sdb)  |
-|     |  Local-PV-Device   | for integration with NDM managed devices               |
-|     |  RawFile-Device    | for integration with Soft Luns devices on a filesystem |
+| ID  | Data-Eegines       | Type of data services                                  | Status                                                     |
+|-----|--------------------|--------------------------------------------------------|------------------------------------------------------------|
+|  1  |  **Mayastor**      | Replicated data volumes (a Cluster wide Data fabric)   | Stable, deployable in PROD. Very active development        |
+|     | &nbsp;             |                                                        |                                                            |
+|  2  |  **Local-PV**      | Non-replicated node local data volumes                 |                                                            |
+|     |  LVM Local-PV      | for tight integration with LVM datastor deployments    | Stable, deployable in PROD, being integarted into STANDARD |
+|     |  ZFS Local-PV      | for tight integration with ZFS datastor deployments    | Stable, deployable in PROD, being integarted into STANDARD |
+|     |  Local-PV-HostPath | for integration with local node hostpath (/mnt/fs1)    | Stable, deployable in PROD, being integarted into STANDARD |
+|     |  Device Local-PV   | for integration with explicit device paths (/dev/sdb)  | Stable, deployable in PROD, being integarted into STANDARD |
+|     |  Local-PV-Device   | for integration with NDM managed devices               | Stable, deployable in PROD, being integarted into STANDARD |
+|     |  RawFile-Device    | for integration with Soft Luns devices on a filesystem | Stable, deployable in PROD, being integarted into STANDARD |
 
 <BR>
 Note: Our Roadmap plans to provide a new K8s Local-PV entity called Hyper-Local-PV.<BR>
