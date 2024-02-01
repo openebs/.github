@@ -73,3 +73,6 @@ There are 2 Data-Engines within the [**STANDARD**](https://github.com/openebs/ma
 
 _Note_: Our [2024 Roadmap](https://github.com/openebs/openebs?tab=readme-ov-file#roadmap-as-of-jan-2024) defines a new K8s Local-PV entity called **Hyper-Local-PV**. <BR>
 This new innovative K8s volume type allows High performance Mayastor block storage devices to be deployed and accessed as Node Local Non-replicated Local-PV's and inherrit all the Enterprise Data Mgmt capabilities of Mayastor SPDK NVMe volumes (while operating in non-replciated node local mode). Please see the [2024 Roadmap](https://github.com/openebs/openebs?tab=readme-ov-file#roadmap-as-of-jan-2024) for details.
+<br>
+<br>
+[![OpenEBS GitHib Star chart](https://github.com/openebs/website/tree/main/website/public/images/png/github_star-history-2024_Feb_1.png)]
