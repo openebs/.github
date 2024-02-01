@@ -9,7 +9,7 @@ Our project team was an early pioneering inventor of K8s **Container Native Stor
 We have designd and built an innovative ultra High-performance Enterprise grade Block-mode storage Hyper-converged Data Fabric that augments the core storage services of K8s with Stateful Persistence, Enterprise Data mgmt, SSD/NVMe optimized I/O services, Replicated Data volumes, Thin Provisioning, Snapshot and Clones; and many other critical data storage services that don't come in K8s out-of-the-box.<BR>
 <BR>
 
-## Popularity
+## User Popularity
 Installed OpenEBS systems actively report back live product metrics every day, to our project Google Anaytics metrics engine.<BR>
 Here are our key project popularity metrics as of: 01 Feb 2024 <BR>
 * OpenEBS is the #1 deployed Storage Platform for Kubernetes
