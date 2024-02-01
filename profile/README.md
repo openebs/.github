@@ -12,9 +12,9 @@ We have designd and built an innovative ultra High-performance Enterprise grade 
 ## Popularity
 Our Key project metrics as of: 01 Feb 2024 <BR>
 * OpenEBS is the #1 deployed Storage Platform for Kubernetes
-* We are the [#1 GitHub Star ranked](https://github.com/openebs/website/tree/main/website/public/images/png) K8s Data Storage platform
+* We are the [#1 GitHub Star ranked](https://github.com/openebs/website/tree/main/website/public/images/png/github_star-history-2024_Feb_1.png) K8s Data Storage platform
 * We have +40 Million Volumes deployed globally
-* We have +7 Million Global Instalalitons
+* We have +7 Million Global installations
 * 1 Million OpenEBS K8s Containers are spawned per week
 <BR>
 
