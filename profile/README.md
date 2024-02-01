@@ -13,7 +13,7 @@ We have designd and built an innovative ultra High-performance Enterprise grade 
 Installed OpenEBS systems actively report back live product metrics every day, to our project Google Anaytics metrics engine.<BR>
 Here are our key project popularity metrics as of: 01 Feb 2024 <BR>
 * OpenEBS is the #1 deployed Storage Platform for Kubernetes
-* We are the [#1 GitHub Star ranked](https://github.com/openebs/website/tree/main/website/public/images/png/github_star-history-2024_Feb_1.png) K8s Data Storage platform
+* We are the [#1 GitHub Star ranked](https://github.com/openebs/website/blob/main/website/public/images/png/github_star-history-2024_Feb_1.png) K8s Data Storage platform
 * We have +40 Million Volumes deployed globally
 * We have +7 Million Global installations
 * 1 Million OpenEBS K8s Containers are spawned per week
@@ -75,4 +75,5 @@ _Note_: Our [2024 Roadmap](https://github.com/openebs/openebs?tab=readme-ov-file
 This new innovative K8s volume type allows High performance Mayastor block storage devices to be deployed and accessed as Node Local Non-replicated Local-PV's and inherrit all the Enterprise Data Mgmt capabilities of Mayastor SPDK NVMe volumes (while operating in non-replciated node local mode). Please see the [2024 Roadmap](https://github.com/openebs/openebs?tab=readme-ov-file#roadmap-as-of-jan-2024) for details.
 <br>
 <br>
+## GitHub Star Chart
 [![OpenEBS GitHib Star chart](https://github.com/openebs/website/blob/main/website/public/images/png/github_star-history-2024_Feb_1.png)]
