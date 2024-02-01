@@ -79,6 +79,6 @@ This new innovative K8s volume type allows High performance Mayastor block stora
 ## GitHub Star Chart
 [GitHub stars chart](https://github.com/openebs/website/blob/main/website/public/images/png/github_star-history-2024_Feb_1.png)
 
-[![XXXXXXXX](https://github.com/openebs/website/blob/main/website/public/images/png/openebs_github_main_banner_HERO_1.png)](https://www.openebs.io/)
+[![XXXXXXXX](https://github.com/openebs/website/blob/main/website/public/images/png/openebs_github_main_banner_HERO_1.png)]
 
 
