@@ -27,7 +27,7 @@ Building an Enterprise Data Storage platform is complex, and areas of the Data &
 OpenEBS has maintained a steady pace of development & evolution in order to keep in alignment with K8s advancment overall and with the rapid changing pace of technologies, hardware and software innovations in the data stroage industry. The proejct is divided into 2 main deployable Editions :<BR>
 | ID  | Edition name  | Release        |
 |-----|---------------|----------------|
-|  1  | Legacy        | [![Releases](https://img.shields.io/github/v/release/openebs/jiva.svg?include_prereleases&style=flat-square)](https://github.com/openebs/cstor-csi/releases)   |
+|  1  | Legacy        | [![Releases](https://github.com/openebs/cstor-csi/releases)](https://github.com/openebs/cstor-csi/releases)   |
 |  2  | [Standard](https://github.com/openebs/mayastor)     | [![Releases](https://img.shields.io/github/release/openebs/Mayastor/all.svg?style=flat-square)](https://github.com/openebs/Mayastor/releases)   |
 <BR>
 
