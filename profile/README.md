@@ -24,7 +24,7 @@ Building an Enterprise Data Storage platform is complex, and areas of the Data &
 <BR>
 <BR>
 ## Project structure
-As a project, OpenEBS hasmaintained a steady pace of evolution in order to keep in alignment with K8s advancment overall and with the rapid changing pace of technologies, hardware and software innovations in the data stroage industry. The proejct is divided into 2 main deployable Editions :<BR>
+OpenEBS has maintained a steady pace of development & evolution in order to keep in alignment with K8s advancment overall and with the rapid changing pace of technologies, hardware and software innovations in the data stroage industry. The proejct is divided into 2 main deployable Editions :<BR>
 | ID  | Edition name  |
 |-----|---------------|
 |  1  |  Legacy       |
