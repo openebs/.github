@@ -22,7 +22,7 @@ Here are our key project popularity metrics as of: 01 Feb 2024 <BR>
 
 Building an Enterprise Data Storage platform is complex, and areas of the Data & I/O stack could be considerd 'Rocket science'. Our global team comes from many areas of the data storage industry and our project is sponsored by many innovative data storage companies within the industry, as well as many amazing individuals. Coding, contributing, brainstorming ideas to the project are all welcome.<BR>
 <BR>
-<BR>
+
 ## Deployable Data-Engines
 OpenEBS has maintained a steady pace of development & evolution in order to keep in alignment with K8s advancment overall and with the rapid changing pace of technologies, hardware and software innovations in the data stroage industry. The proejct is divided into 2 main deployable Editions :<BR>
 | ID  | Edition name  | Data-Engine | Release        |
