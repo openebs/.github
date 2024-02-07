@@ -29,6 +29,8 @@ OpenEBS has maintained a steady pace of development & evolution in order to keep
 |-----|---------------|-------------|----------------|
 |  1  | Legacy        | [cStor](https://github.com/openebs/cstor-operators)       | [![Releases](https://img.shields.io/github/v/release/openebs/cstor-csi.svg?include_prereleases&style=flat-square)](https://github.com/openebs/cstor-csi/releases)   |
 |     |               | [Jiva](https://github.com/openebs/jiva)  | [![Releases](https://img.shields.io/github/v/release/openebs/jiva.svg?include_prereleases&style=flat-square)](https://github.com/openebs/jiva/releases)   |
+|     |               | [NFS](https://github.com/openebs/dynamic-nfs-provisioner)  |    |
+|     |  &nbsp        |                      |    |
 |  2  | [Standard](https://github.com/openebs/mayastor)     | Mayastor     | [![Releases](https://img.shields.io/github/release/openebs/Mayastor/all.svg?style=flat-square)](https://github.com/openebs/Mayastor/releases)   |
 <BR>
 
