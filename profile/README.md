@@ -73,8 +73,8 @@ There are 2 Data-Engines within the [**STANDARD**](https://github.com/openebs/ma
 |     |  RawFile-Device    | for integration with Soft Luns devices on a filesystem | Stable, deployable in PROD, undergoing integration         |
 <BR>
 
-_Note_: Our [2024 Roadmap](https://github.com/openebs/openebs?tab=readme-ov-file#roadmap-as-of-jan-2024) defines a new K8s Local-PV entity called **Hyper-Local-PV**. <BR>
-This new innovative K8s volume type allows High performance Mayastor block storage devices to be deployed and accessed as Node Local Non-replicated Local-PV's and inherrit all the Enterprise Data Mgmt capabilities of Mayastor SPDK NVMe volumes (while operating in non-replciated node local mode). Please see the [2024 Roadmap](https://github.com/openebs/openebs?tab=readme-ov-file#roadmap-as-of-jan-2024) for details.
+_Note_: Our [2024 Roadmap](https://github.com/openebs/openebs/blob/main/ROADMAP.md) defines a new K8s Local-PV entity called **Hyper-Local-PV**. <BR>
+This new innovative K8s volume type allows High performance Mayastor block storage devices to be deployed and accessed as Node Local Non-replicated Local-PV's and inherrit all the Enterprise Data Mgmt capabilities of Mayastor SPDK NVMe volumes (while operating in non-replciated node local mode). Please see the [2024 Roadmap](https://github.com/openebs/openebs/blob/main/ROADMAP.md) for details.
 <br>
 <br>
 
