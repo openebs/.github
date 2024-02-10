@@ -74,10 +74,12 @@ There are 2 Data-Engines within the [**STANDARD**](https://github.com/openebs/ma
 |     |  RawFile-Device    | for integration with Soft Luns devices on a filesystem | Stable, deployable in PROD, undergoing integration         |
 <BR>
 
-_Note_: Our [2024 Roadmap](https://github.com/openebs/openebs/blob/main/ROADMAP.md) defines a new K8s Local-PV entity called **Hyper-Local-PV**. <BR>
-This new innovative K8s volume type allows High performance Mayastor block storage devices to be deployed and accessed as Node Local Non-replicated Local-PV's and inherrit all the Enterprise Data Mgmt capabilities of Mayastor SPDK NVMe volumes (while operating in non-replciated node local mode). Please see the [2024 Roadmap](https://github.com/openebs/openebs/blob/main/ROADMAP.md) for details.
+## ROADMAP
+Our [2024 Roadmap is here](https://github.com/openebs/openebs/blob/main/ROADMAP.md) It defines a rich set of new featrues that are planned for 2024.<br>
+Please review this roadmp and feel free to pass back any feedback on it, as well as recommend and suggest new ideas. We welcome all your feedback.
 <br>
 <br>
 
 ## GitHub Star Chart
+OpenEBS is the most successful Stateful Persistent Contianer Native Storage platform in the CNCF landscape. It has allways held the #1 position and continues to as of today.
 [![XXXXXXXX](https://github.com/openebs/website/blob/main/website/public/images/png/github_star-history-2024_Feb_1.png)](https://www.openebs.io/)
