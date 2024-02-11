@@ -18,7 +18,6 @@ We have designd and built an innovative ultra High-performance Enterprise grade 
 > * We have +7 Million Global installations
 > * 1 Million OpenEBS K8s Containers are spawned per week
 > * 700,000 global users
-<BR>
 
 |   |   |
 |---|---|
