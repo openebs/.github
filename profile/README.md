@@ -63,7 +63,7 @@ There are 3 main Data-Engines in LEGACY:<BR>
 ## ```STANDARD Edition```
 **STANDARD** is our Ultra modern Datastore stack that is strongly aligned with the cutting edge direction of storage use-cases in the K8s industry. It is designed to faciliate modern K8s datastore archiectures, key K8s I/O patterns, K8s data access methods, K8s data use-cases and where K8s Datastore applications are heading.
 > * STANDARD is optimized for NVMe and SSD Flash and integrates ultra modern extreme high performance storage technologies at its core...
->    * It uses the High performance [SPDK](https://spdk.io) storage stack - (SPDK is an opensource NVMe project initiated by INTEL)
+> - [x] It uses the High performance [SPDK](https://spdk.io) storage stack - (SPDK is an opensource NVMe project initiated by INTEL)
 >    * The hyper modern [IO_Uring](https://github.com/axboe/liburing) Linux Kernel Async polling-mode I/O Interface - (fastest kernel I/O mode possible)
 >    * Native abilties for RDMA and Zero-Copy I/O
 >    * NVMe-oF TCP Block storage Hyper-converged data fabric
