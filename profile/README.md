@@ -60,6 +60,7 @@ There are 3 main Data-Engines in LEGACY:<BR>
 
 ## ```STANDARD Edition```
 **STANDARD** is our Ultra modern Datastore stack that is strongly aligned with the cutting edge direction of storage use-cases in the K8s industry. It is designed to faciliate modern K8s datastore archiectures, key K8s I/O patterns, K8s data access methods, K8s data use-cases and where K8s Datastore applications are heading.
+<BR>
 
 <details>
  
@@ -76,7 +77,7 @@ There are 3 main Data-Engines in LEGACY:<BR>
 > - [X] Native Block layer Snapshots and Clones
 
 </details>
-
+<BR>
 
 
 There are 2 Data-Engines within the [**STANDARD**](https://github.com/openebs/mayastor) Edition:
