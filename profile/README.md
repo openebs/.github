@@ -25,13 +25,10 @@ We have built an innovative ultra High-performance Enterprise grade Block-mode H
 
 <details>
  <summary>STANDARD is optimized for NVMe and SSD Flash storage media, and integrates ultra modern cutting-edge high performance storage technologies at its core...</summary>
-
  ## Header goes here
-
  Text 1
  Text 2
- 
-</details>
+ </details>
 
 > [!IMPORTANT]
 > We are grateful for the above innovative Data Storage companies and their amazing engineering contributors. Our orignal founding team continues to guide the project as custodial Maintainers. Major ponsorship is provided by [DataCore](https://datacore.com), who donates a large team of dedicated  Product Dev/Engineers, Product Mgmt and operational rescources. (Our founding team was acquired by DataCore, Inc). OpenEBS has 100's of amazing individuals, contributors and storage engineers who provide brainstorming ideas, feedback, code reviews and high-quality code to the project. - All who are passionate about storage and Data are welcome here.
