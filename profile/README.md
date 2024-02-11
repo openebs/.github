@@ -28,6 +28,7 @@ We have designd and built an innovative ultra High-performance Enterprise grade 
 <BR>
 
 Tip:\u003c/strong\u003e To preserve your formatting within a list, make sure to indent non-fenced code blocks by eight space
+<p><strong>Tip:</strong> To preserve your formatting within a list, make sure to indent non-fenced code blocks by eight spaces.</p>
 
 > <div class="ghd-alert ghd-alert-accent ghd-spotlight-accent"><p><strong>Note</strong>: In the web-based editor, you can indent or dedent one or more lines of text by first highlighting the desired lines and then using <kbd>Tab</kbd> or <kbd>Shift</kbd>+<kbd>Tab</kbd> respectively.</p></div>
 
