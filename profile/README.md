@@ -57,11 +57,7 @@ There are 3 main Data-Engines in LEGACY:<BR>
 |  2  |  NFS Provisioner  | NFS userspace server | We plan to sunset LEGACY in 2024 |
 <BR>
 
-```ruby
-require 'redcarpet'
-markdown = Redcarpet.new("Hello World!")
-puts markdown.to_html
-```
+```ruby {} require 'redcarpet' ```
 
 ## STANDARD Edition
 **STANDARD** is our Ultra modern Datastore stack that is strongly aligned with the cutting edge direction of storage use-cases in the K8s industry. It is designed to faciliate modern K8s datastore archiectures, key K8s I/O patterns, K8s data access methods, K8s data use-cases and where K8s Datastore applications are heading.
