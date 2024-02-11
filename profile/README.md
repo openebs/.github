@@ -11,7 +11,7 @@ We have built an innovative ultra High-performance Enterprise grade Block-mode H
 
 > **OpenEBS is very popular**. Live OpenEBS systems actively report back product metrics every day, to our Global Anaytics metrics engine (unless disabled by the user).
 > Here are our key project popularity metrics as of: 01 Feb 2024 <BR>
-> * OpenEBS is the #1 deployed Storage Platform for Kubernetes
+> :rocket: OpenEBS is the #1 deployed Storage Platform for Kubernetes
 > * We are the [#1 GitHub Star ranked](https://github.com/openebs/website/blob/main/website/public/images/png/github_star-history-2024_Feb_1.png) K8s Data Storage platform
 > * We have +40 Million Volumes deployed globally
 > * We have +7 Million Global installations
