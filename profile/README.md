@@ -11,14 +11,14 @@ We have designd and built an innovative ultra High-performance Enterprise grade 
 
 ## User Popularity
 > [!IMPORTANT]
-> Installed OpenEBS systems actively report back live product metrics every day, to our project Google Anaytics metrics engine.
+> Live OpenEBS systems actively report back product metrics every day, to our project Google Anaytics metrics engine (unless disabled by users).
 > Here are our key project popularity metrics as of: 01 Feb 2024 <BR>
-* OpenEBS is the #1 deployed Storage Platform for Kubernetes
-* We are the [#1 GitHub Star ranked](https://github.com/openebs/website/blob/main/website/public/images/png/github_star-history-2024_Feb_1.png) K8s Data Storage platform
-* We have +40 Million Volumes deployed globally
-* We have +7 Million Global installations
-* 1 Million OpenEBS K8s Containers are spawned per week
-* 700,000 global users
+> * OpenEBS is the #1 deployed Storage Platform for Kubernetes
+> * We are the [#1 GitHub Star ranked](https://github.com/openebs/website/blob/main/website/public/images/png/github_star-history-2024_Feb_1.png) K8s Data Storage platform
+> * We have +40 Million Volumes deployed globally
+> * We have +7 Million Global installations
+> * 1 Million OpenEBS K8s Containers are spawned per week
+> * 700,000 global users
 <BR>
 
 |   |    |
