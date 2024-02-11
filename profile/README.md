@@ -65,16 +65,16 @@ There are 3 main Data-Engines in LEGACY:<BR>
 <details>
  
 <summary>STANDARD is optimized for NVMe and SSD Flash storage media, and integrates ultra modern cutting-edge high performance storage technologies at its core...</summary>
-
-> :ballot_box_with_check: It uses the High performance [SPDK](https://spdk.io) storage stack - (SPDK is an opensource NVMe project initiated by INTEL)
-> :ballot_box_with_check: The hyper modern [IO_Uring](https://github.com/axboe/liburing) Linux Kernel Async polling-mode I/O Interface - (fastest kernel I/O mode possible)
+> <BR>
+> :ballot_box_with_check: It uses the High performance [SPDK](https://spdk.io) storage stack - (SPDK is an opensource NVMe project initiated by INTEL) <BR>
+> :ballot_box_with_check: The hyper modern [IO_Uring](https://github.com/axboe/liburing) Linux Kernel Async polling-mode I/O Interface - (fastest kernel I/O mode possible) <BR>
 > - [X] Native abilties for RDMA and Zero-Copy I/O <BR>
-> - [X] NVMe-oF TCP Block storage Hyper-converged data fabric
-> - [X] Block layer volume replication
-> - [X] Logical volumes and Diskpool based data managment
-> - [X] a Native high peformance [Blobstore](https://spdk.io/doc/blob.html)
-> - [X] Native Block layer Thin provisoning
-> :ballot_box_with_check: Native Block layer Snapshots and Clones
+> - [X] NVMe-oF TCP Block storage Hyper-converged data fabric <BR>
+> - [X] Block layer volume replication <BR>
+> - [X] Logical volumes and Diskpool based data managment <BR>
+> - [X] a Native high peformance [Blobstore](https://spdk.io/doc/blob.html) <BR>
+> - [X] Native Block layer Thin provisoning <BR>
+> :ballot_box_with_check: Native Block layer Snapshots and Clones <BR>
 
 </details>
 <BR>
