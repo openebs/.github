@@ -23,17 +23,6 @@ We have built an innovative ultra High-performance Enterprise grade Block-mode H
 | :---  | :--- |
 <BR>
 
-<details>
- 
-<summary>STANDARD is optimized for NVMe and SSD Flash storage media, and integrates ultra modern cutting-edge high performance storage technologies at its core...</summary>
-## Header goes here
-
-Text 1
-
-Text 2
-
-</details>
-
 > [!IMPORTANT]
 > We are grateful for the above innovative Data Storage companies and their amazing engineering contributors. Our orignal founding team continues to guide the project as custodial Maintainers. Major ponsorship is provided by [DataCore](https://datacore.com), who donates a large team of dedicated  Product Dev/Engineers, Product Mgmt and operational rescources. (Our founding team was acquired by DataCore, Inc). OpenEBS has 100's of amazing individuals, contributors and storage engineers who provide brainstorming ideas, feedback, code reviews and high-quality code to the project. - All who are passionate about storage and Data are welcome here.
 
@@ -82,7 +71,27 @@ There are 3 main Data-Engines in LEGACY:<BR>
 > - [X] a Native high peformance [Blobstore](https://spdk.io/doc/blob.html)
 > - [X] Native Block layer Thin provisoning
 > - [X] Native Block layer Snapshots and Clones
- <BR>	
+<BR>	
+
+<details>
+ 
+<summary>STANDARD is optimized for NVMe and SSD Flash storage media, and integrates ultra modern cutting-edge high performance storage technologies at its core...</summary>
+
+## STANDARD contains
+
+> - [X] It uses the High performance [SPDK](https://spdk.io) storage stack - (SPDK is an opensource NVMe project initiated by INTEL)
+> - [X] The hyper modern [IO_Uring](https://github.com/axboe/liburing) Linux Kernel Async polling-mode I/O Interface - (fastest kernel I/O mode possible)
+> - [X] Native abilties for RDMA and Zero-Copy I/O <BR>
+> - [X] NVMe-oF TCP Block storage Hyper-converged data fabric
+> - [X] Block layer volume replication
+> - [X] Logical volumes and Diskpool based data managment
+> - [X] a Native high peformance [Blobstore](https://spdk.io/doc/blob.html)
+> - [X] Native Block layer Thin provisoning
+> - [X] Native Block layer Snapshots and Clones
+
+</details>
+
+
 
 There are 2 Data-Engines within the [**STANDARD**](https://github.com/openebs/mayastor) Edition:
 | ID  | Data-Eegines       | Type of data services                                  | Status                                                     |
