@@ -62,16 +62,16 @@ There are 3 main Data-Engines in LEGACY:<BR>
 
 ## ```STANDARD Edition```
 **STANDARD** is our Ultra modern Datastore stack that is strongly aligned with the cutting edge direction of storage use-cases in the K8s industry. It is designed to faciliate modern K8s datastore archiectures, key K8s I/O patterns, K8s data access methods, K8s data use-cases and where K8s Datastore applications are heading.
-> * STANDARD is optimized for NVMe and SSD Flash and integrates ultra modern extreme high performance storage technologies at its core...
+> STANDARD is optimized for NVMe and SSD Flash and integrates ultra modern extreme high performance storage technologies at its core...
 > - [X] It uses the High performance [SPDK](https://spdk.io) storage stack - (SPDK is an opensource NVMe project initiated by INTEL)
 > - [X] The hyper modern [IO_Uring](https://github.com/axboe/liburing) Linux Kernel Async polling-mode I/O Interface - (fastest kernel I/O mode possible)
 > - [X] Native abilties for RDMA and Zero-Copy I/O <BR>
->    * NVMe-oF TCP Block storage Hyper-converged data fabric
->    * Block layer volume replication
->    * Logical volumes and Diskpool based data managment
->    * a Native high peformance [Blobstore](https://spdk.io/doc/blob.html)
->    * Native Block layer Thin provisoning
->    * Native Block layer Snapshots and Clones
+> - [X] NVMe-oF TCP Block storage Hyper-converged data fabric
+> - [X] Block layer volume replication
+> - [X] Logical volumes and Diskpool based data managment
+> - [X] a Native high peformance [Blobstore](https://spdk.io/doc/blob.html)
+> - [X] Native Block layer Thin provisoning
+> - [X] Native Block layer Snapshots and Clones
  <BR>	
 
 There are 2 Data-Engines within the [**STANDARD**](https://github.com/openebs/mayastor) Edition:
