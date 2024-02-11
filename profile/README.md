@@ -84,9 +84,9 @@ There are 3 main Data-Engines in LEGACY:<BR>
 There are 2 Data-Engines within the [**STANDARD**](https://github.com/openebs/mayastor) Edition:
 | ID  | Data-Eegines       | Type of data services                                  | Status                                                     |
 |-----|--------------------|--------------------------------------------------------|------------------------------------------------------------|
-|  1  |  **Mayastor**      | Replicated data volumes (a Cluster wide Data fabric)   | Stable, deployable in PROD. Very active development        |
+|  1  |  ```**Mayastor**```      | Replicated data volumes (a Cluster wide Data fabric)   | Stable, deployable in PROD. Very active development        |
 |     | &nbsp;             |                                                        |                                                            |
-|  2  |  **Local-PV**      | Non-replicated node local data volumes                 | (Local-PV has multiple variants. See below)                |
+|  2  |  ```**Local-PV**```      | Non-replicated node local data volumes                 | (Local-PV has multiple variants. See below)                |
 |     | &nbsp;             |                                                        |                                                            |
 |     |  LVM Local-PV      | for integration with LVM datastor deployments          | Stable, deployable in PROD, undergoing integration         |
 |     |  ZFS Local-PV      | for integration with ZFS datastor deployments          | Stable, deployable in PROD, undergoing integration         |
