@@ -64,7 +64,6 @@ There are 3 main Data-Engines in LEGACY:<BR>
 <details>
  
 <summary>STANDARD is optimized for NVMe and SSD Flash storage media, and integrates ultra modern cutting-edge high performance storage technologies at its core...</summary>
-```Whats in STANDARD``` <BR>
 
 > - [X] It uses the High performance [SPDK](https://spdk.io) storage stack - (SPDK is an opensource NVMe project initiated by INTEL)
 > - [X] The hyper modern [IO_Uring](https://github.com/axboe/liburing) Linux Kernel Async polling-mode I/O Interface - (fastest kernel I/O mode possible)
