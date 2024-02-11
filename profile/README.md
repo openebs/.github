@@ -25,7 +25,7 @@ Our project is grateful for these innovative data storage companies and their am
 <BR>
 
 ## Project structure
-[https://github.com/openebs/website/blob/main/website/public/images/png/openebs_github_project-structure.png]
+https://github.com/openebs/website/blob/main/website/public/images/png/openebs_github_project-structure.png
 
 ## Deployable Data-Engines
 OpenEBS has maintained a steady pace of development & evolution in order to keep in alignment with K8s advancment overall and with the rapid changing pace of technologies, hardware and software innovations in the data stroage industry. The proejct is divided into 2 main deployable Editions :<BR>
