@@ -7,7 +7,6 @@ OpenEBS is a free openesource Stateful Persistent Data Storage platform for Kube
 Our project team was an early pioneering inventor of K8s **Container Native Storage** services. We concieved the vision of a K8s Stateful Persistent data platform that is tightly integrated and embeded natively into the core of K8s.<BR>
 <BR>
 We have designd and built an innovative ultra High-performance Enterprise grade Block-mode storage Hyper-converged Data Fabric that augments the core storage services of K8s with Stateful Persistence, Enterprise Data mgmt, SSD/NVMe optimized I/O services, Replicated Data volumes, Thin Provisioning, Snapshot and Clones; and many other critical data storage services that don't come in K8s out-of-the-box.<BR>
-<BR>
 
 > [!IMPORTANT]
 > OpenEBS is very popular. Live OpenEBS systems actively report back product metrics every day, to our project Google Anaytics metrics engine (unless disabled by users).
@@ -22,7 +21,6 @@ We have designd and built an innovative ultra High-performance Enterprise grade 
 |   |   |
 |---|---|
 | [![We are builders](https://github.com/openebs/website/blob/main/website/public/images/png/code_icon_200x100.png)](https://github.com/openebs/website/blob/main/website/public/images/png/code_for_success_mantra.png)  | Building a K8s Enterprise Data Storage platform is complex, and areas of the Data & I/O stack could be considerd 'Storage Rocket science'. Our global team comes from many areas of the data storage industry. Companies like... [Microsoft Azure](https://azure.microsoft.com/en-us/), [VMware](https://www.vmware.com/), [DELL/EMC](https://www.dell.com/en-us/shop/scc/sc/storage-products), [Brocade/Broadcom](https://www.broadcom.com/products/fibre-channel-networking), [Hitachi Vantara](https://www.hitachivantara.com/en-us/products/storage-platforms.html), [INTEL](https://www.intel.com/content/www/us/en/products/details/memory-storage.html), [Nvidia/Mellanox](https://developer.nvidia.com/gpudirect-storage), [IBM](https://www.ibm.com/storage), [RedHat](https://www.redhat.com/en/technologies/cloud-computing/openshift) and [DataCore](https://datacore.com). |
-
 
 > We are grateful for the innovative Data Storage companies and their amazing engineering contributors. Our orignal founding team continues to guide the project as custodial Maintainers. Major ponsorship is provided via [DataCore](https://datacore.com), who donates daily Product Dev/Engineers, Product Mgmt and operational rescources to OpenEBS. (Our founding team was acquired by DataCore, Inc). OpenEBS has 100's of amazing individuals, contributors and storage engineers who provide brainstorming ideas, feedback, code reviews and high-quality code to the project. - All who are passionate about storage and Data are welcome here.
 
