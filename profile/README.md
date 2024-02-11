@@ -18,12 +18,6 @@ We have built an innovative ultra High-performance Enterprise grade Block-mode H
 > * 1 Million OpenEBS K8s Containers are spawned per week
 > * 700,000 global users
 
-|   |   |
-|---|---|
-| [![coders](https://github.com/openebs/website/blob/main/website/public/images/png/code_icon_200x100.png "Write more awesome code")](https://github.com/openebs/website/blob/main/website/public/images/png/code_for_success_mantra.png)  | Building a K8s Enterprise Data Storage platform is complex, and areas of the Data & I/O stack could be considerd 'Storage Rocket science'. Our global team comes from many areas of the data storage industry. Companies like... [Microsoft Azure](https://azure.microsoft.com/en-us/), [VMware](https://www.vmware.com/), [DELL/EMC](https://www.dell.com/en-us/shop/scc/sc/storage-products), [Brocade/Broadcom](https://www.broadcom.com/products/fibre-channel-networking), [Hitachi Vantara](https://www.hitachivantara.com/en-us/products/storage-platforms.html), [INTEL](https://www.intel.com/content/www/us/en/products/details/memory-storage.html), [Nvidia/Mellanox](https://developer.nvidia.com/gpudirect-storage), [IBM](https://www.ibm.com/storage), [RedHat](https://www.redhat.com/en/technologies/cloud-computing/openshift) and [DataCore](https://datacore.com). |
-<BR>
-
-
 | [![coders](https://github.com/openebs/website/blob/main/website/public/images/png/code_icon_200x100.png "Write more awesome code")](https://github.com/openebs/website/blob/main/website/public/images/png/code_for_success_mantra.png)  | Building a K8s Enterprise Data Storage platform is complex, and areas of the Data & I/O stack could be considerd 'Storage Rocket science'. Our global team comes from many areas of the data storage industry. Companies like... [Microsoft Azure](https://azure.microsoft.com/en-us/), [VMware](https://www.vmware.com/), [DELL/EMC](https://www.dell.com/en-us/shop/scc/sc/storage-products), [Brocade/Broadcom](https://www.broadcom.com/products/fibre-channel-networking), [Hitachi Vantara](https://www.hitachivantara.com/en-us/products/storage-platforms.html), [INTEL](https://www.intel.com/content/www/us/en/products/details/memory-storage.html), [Nvidia/Mellanox](https://developer.nvidia.com/gpudirect-storage), [IBM](https://www.ibm.com/storage), [RedHat](https://www.redhat.com/en/technologies/cloud-computing/openshift) and [DataCore](https://datacore.com). |
 | :---  | :--- |
 <BR>
