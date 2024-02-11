@@ -101,7 +101,7 @@ Please review this roadmp and feel free to pass back any feedback on it, as well
 <br>
 <br>
 
-## GitHub Star Chart
+## :star: GitHub Star Chart
 OpenEBS is the most successful Stateful Persistent Contianer Native Storage platform in the CNCF landscape. It has allways held the #1 position and continues to as of today.
 
 [![XXXXXXXX](https://github.com/openebs/website/blob/main/website/public/images/png/github_star-history-2024_Feb_1.png)](https://www.openebs.io/)
