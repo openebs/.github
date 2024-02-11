@@ -39,7 +39,7 @@ OpenEBS has maintained a steady pace of development & evolution in order to keep
 
 ## LEGACY
 > [!NOTE]
-> <font color="green"> Some green text </font>
+> <span style="color: green"> Some green text: </span>
 > LEGACY consists of Data-Engines that we experimented with early on. These Data-Engines have a number of opensoruce techologies embeded inside them, and are a great intro into the world of simple K8s storage services. LEGACY helped us learn, iterate and develop our core storage K8s strategy, as well as decern how users want & need to interact with K8s storage services. LEGACY also helped to reveal key areas within K8s that are lacking in storage/datastore services,  what areas of K8s we could optimize; and how we can provide the best value into the various K8s storage layers.
 
 There are 3 main Data-Engines in LEGACY:<BR>
