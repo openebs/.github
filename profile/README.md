@@ -67,15 +67,15 @@ There are 3 main Data-Engines in LEGACY:<BR>
 <summary>STANDARD is optimized for NVMe and SSD Flash storage media, and integrates ultra modern cutting-edge high performance storage technologies at its core...</summary>
 
 >
-> :ballot_box_with_check: It uses the High performance [SPDK](https://spdk.io) storage stack - (SPDK is an opensource NVMe project initiated by INTEL) <BR>
-> :ballot_box_with_check: The hyper modern [IO_Uring](https://github.com/axboe/liburing) Linux Kernel Async polling-mode I/O Interface - (fastest kernel I/O mode possible) <BR>
-> :ballot_box_with_check: Native abilties for RDMA and Zero-Copy I/O <BR>
-> :ballot_box_with_check: NVMe-oF TCP Block storage Hyper-converged data fabric <BR>
-> :ballot_box_with_check: Block layer volume replication <BR>
-> :ballot_box_with_check: Logical volumes and Diskpool based data managment <BR>
-> :ballot_box_with_check: a Native high peformance [Blobstore](https://spdk.io/doc/blob.html) <BR>
-> :ballot_box_with_check: Native Block layer Thin provisoning <BR>
-> :ballot_box_with_check: Native Block layer Snapshots and Clones <BR>
+> :ballot_box_with_check: &nbsp; It uses the High performance [SPDK](https://spdk.io) storage stack - (SPDK is an opensource NVMe project initiated by INTEL) <BR>
+> :ballot_box_with_check: &nbsp; The hyper modern [IO_Uring](https://github.com/axboe/liburing) Linux Kernel Async polling-mode I/O Interface - (fastest kernel I/O mode possible) <BR>
+> :ballot_box_with_check: &nbsp; Native abilties for RDMA and Zero-Copy I/O <BR>
+> :ballot_box_with_check: &nbsp; NVMe-oF TCP Block storage Hyper-converged data fabric <BR>
+> :ballot_box_with_check: &nbsp; Block layer volume replication <BR>
+> :ballot_box_with_check: &nbsp; Logical volumes and Diskpool based data managment <BR>
+> :ballot_box_with_check: &nbsp; a Native high peformance [Blobstore](https://spdk.io/doc/blob.html) <BR>
+> :ballot_box_with_check: &nbsp; Native Block layer Thin provisoning <BR>
+> :ballot_box_with_check: &nbsp; Native Block layer Snapshots and Clones <BR>
 
 </details>
 <BR>
