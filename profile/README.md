@@ -2,7 +2,7 @@
 [![OpenEBS Social Banner](https://github.com/openebs/website/blob/main/website/public/images/png/openebs_github_main_banner_HERO_1.png)](https://www.openebs.io/)
 
 ## [openebs.io](https://www.openebs.io/)
-OpenEBS is a openesource Stateful Persistent Data Storage block-mode platform for Kubernetes. We are CNCF member project. We are a large global community of K8s Data storage users.<BR>
+OpenEBS is a openesource Stateful Persistent block-mode Data Storage platform for Kubernetes. We are CNCF member project. We are a large global community of K8s Data storage users.<BR>
 <BR>
 Our project team was an early pioneering inventor of K8s **Container Native Storage** services. We concieved the vision of a Stateful Persistent data platform for K8s that is tightly integrated and natively embeded into the core of K8s.<BR>
 <BR>
