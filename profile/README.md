@@ -27,7 +27,9 @@ We have built an innovative ultra High-performance Enterprise grade Block-mode H
  
 <summary>STANDARD is optimized for NVMe and SSD Flash storage media, and integrates ultra modern cutting-edge high performance storage technologies at its core...</summary>
 ## Header goes here
+
 Text 1
+
 Text 2
 
 </details>
