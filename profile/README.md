@@ -95,7 +95,7 @@ There are 2 Data-Engines within the [**STANDARD**](https://github.com/openebs/ma
 |     |  RawFile-Device    | for integration with Soft Luns devices on a filesystem | Stable, deployable in PROD, undergoing integration         |
 <BR>
 
-## ROADMAP
+## :earth_americas: ROADMAP
 Our [2024 Roadmap is here](https://github.com/openebs/openebs/blob/main/ROADMAP.md) It defines a rich set of new featrues that are planned for 2024.<br>
 Please review this roadmp and feel free to pass back any feedback on it, as well as recommend and suggest new ideas. We welcome all your feedback.
 <br>
