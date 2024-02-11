@@ -27,9 +27,8 @@ We have designd and built an innovative ultra High-performance Enterprise grade 
 > Our project is grateful for these innovative data storage companies and their amazing storage engineering team contributions. Our orignal founding team continues to guide the project as custodial Maintainers. Major ponsorship is provided via [DataCore](https://datacore.com), who donates daily Product Dev/Engineers, Product Mgmt and operational rescources to OpenEBS. (Our founding team was acquired by DataCore, Inc). OpenEBS has 100's of amazing individuals, contributors and storage engineers who provide brainstorming ideas, feedback, code reviews and high-quality code to the project. - All who are passionate about storage and Data are welcome here.<BR>
 <BR>
 
-> <div class="ghd-alert ghd-alert-accent ghd-spotlight-accent">
-<p><strong>Note</strong>: In the web-based editor, you can indent or dedent one or more lines of text by first highlighting the desired lines and then using <kbd>Tab</kbd> or <kbd>Shift</kbd>+<kbd>Tab</kbd> respectively.</p>
-</div>
+>
+> <div class="ghd-alert ghd-alert-accent ghd-spotlight-accent"><p><strong>Note</strong>: In the web-based editor, you can indent or dedent one or more lines of text by first highlighting the desired lines and then using <kbd>Tab</kbd> or <kbd>Shift</kbd>+<kbd>Tab</kbd> respectively.</p></div>
 
 
 ## Project structure
