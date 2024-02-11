@@ -35,10 +35,10 @@ We have built an innovative ultra High-performance Enterprise grade Block-mode H
 OpenEBS has maintained a steady pace of development & evolution in order to keep in alignment with K8s advancment overall and with the rapid changing pace of technologies, hardware and software innovations in the data stroage industry. The proejct is divided into 2 main deployable Editions :<BR>
 | ID  | Edition name  | Data-Engine | Release        |
 |-----|---------------|-------------|----------------|
-|  1  | > ```Legacy```        | [cStor](https://github.com/openebs/cstor-operators)       | [![Releases](https://img.shields.io/github/v/release/openebs/cstor-csi.svg?include_prereleases&style=flat-square)](https://github.com/openebs/cstor-csi/releases)   |
+|  1  | ```Legacy```        | [cStor](https://github.com/openebs/cstor-operators)       | [![Releases](https://img.shields.io/github/v/release/openebs/cstor-csi.svg?include_prereleases&style=flat-square)](https://github.com/openebs/cstor-csi/releases)   |
 |     |               | [Jiva](https://github.com/openebs/jiva)  | [![Releases](https://img.shields.io/github/v/release/openebs/jiva.svg?include_prereleases&style=flat-square)](https://github.com/openebs/jiva/releases)   |
 |     |               | [NFS](https://github.com/openebs/dynamic-nfs-provisioner)  |    |
-|  2  | > ```Standard```     | [Mayastor](https://github.com/openebs/mayastor)     | [![Releases](https://img.shields.io/github/release/openebs/Mayastor/all.svg?style=flat-square)](https://github.com/openebs/Mayastor/releases)   |
+|  2  | ```Standard```     | [Mayastor](https://github.com/openebs/mayastor)     | [![Releases](https://img.shields.io/github/release/openebs/Mayastor/all.svg?style=flat-square)](https://github.com/openebs/Mayastor/releases)   |
 
 ## LEGACY Edition
 > [!NOTE]
@@ -57,9 +57,9 @@ There are 3 main Data-Engines in LEGACY:<BR>
 |  2  |  NFS Provisioner  | NFS userspace server | We plan to sunset LEGACY in 2024 |
 <BR>
 
-> ``` Test ```
 
-## STANDARD Edition
+
+> ## STANDARD Edition
 **STANDARD** is our Ultra modern Datastore stack that is strongly aligned with the cutting edge direction of storage use-cases in the K8s industry. It is designed to faciliate modern K8s datastore archiectures, key K8s I/O patterns, K8s data access methods, K8s data use-cases and where K8s Datastore applications are heading.
 > * STANDARD is optimized for NVMe and SSD Flash and integrates ultra modern extreme high performance storage technologies at its core...
 >    * It uses the High performance [SPDK](https://spdk.io) storage stack - (SPDK is an opensource NVMe project initiated by INTEL)
