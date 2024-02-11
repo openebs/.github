@@ -18,7 +18,7 @@ We have built an innovative ultra High-performance Enterprise grade Block-mode H
 > * 1 Million OpenEBS K8s Containers are spawned per week
 > * 700,000 global users
 
-|   |   |
+| ```   |   |
 |---|---|
 | [![We are builders](https://github.com/openebs/website/blob/main/website/public/images/png/code_icon_200x100.png)](https://github.com/openebs/website/blob/main/website/public/images/png/code_for_success_mantra.png)  | Building a K8s Enterprise Data Storage platform is complex, and areas of the Data & I/O stack could be considerd 'Storage Rocket science'. Our global team comes from many areas of the data storage industry. Companies like... [Microsoft Azure](https://azure.microsoft.com/en-us/), [VMware](https://www.vmware.com/), [DELL/EMC](https://www.dell.com/en-us/shop/scc/sc/storage-products), [Brocade/Broadcom](https://www.broadcom.com/products/fibre-channel-networking), [Hitachi Vantara](https://www.hitachivantara.com/en-us/products/storage-platforms.html), [INTEL](https://www.intel.com/content/www/us/en/products/details/memory-storage.html), [Nvidia/Mellanox](https://developer.nvidia.com/gpudirect-storage), [IBM](https://www.ibm.com/storage), [RedHat](https://www.redhat.com/en/technologies/cloud-computing/openshift) and [DataCore](https://datacore.com). |
 
@@ -45,7 +45,6 @@ OpenEBS has maintained a steady pace of development & evolution in order to keep
 > us learn, iterate and develop our core storage K8s strategy, as well as decern how users want & need to interact with
 > K8s storage services. LEGACY also helped to reveal key areas within K8s that are lacking in storage/datastore services,
 > what areas of K8s we could optimize; and how we can provide the best value into the various K8s storage layers.
-> ```
 
 There are 3 main Data-Engines in LEGACY:<BR>
 | ID  | Data-Eegines      | Embeded tech stack   | Status                           |
