@@ -51,8 +51,8 @@ OpenEBS has maintained a steady pace of development & evolution in order to keep
 There are 3 main Data-Engines in LEGACY:<BR>
 | ID  | Data-Eegines      | Embeded tech stack   | Status                           |
 |-----|-------------------|----------------------|----------------------------------|
-|  1  |  Jiva             | iSCSI                | We plan to sunset LEGACY in 2024 |
-|  2  |  cStor            | Open ZFS             | We plan to sunset LEGACY in 2024 |
+|  1  |  Jiva             | iSCSI, Old LongHorn                | We plan to sunset LEGACY in 2024 |
+|  2  |  cStor            | Userspace Open ZFS             | We plan to sunset LEGACY in 2024 |
 |  2  |  NFS Provisioner  | NFS userspace server | We plan to sunset LEGACY in 2024 |
 <BR>
 
