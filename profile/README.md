@@ -66,15 +66,15 @@ There are 3 main Data-Engines in LEGACY:<BR>
  
 <summary>STANDARD is optimized for NVMe and SSD Flash storage media, and integrates ultra modern cutting-edge high performance storage technologies at its core...</summary>
 
-> - [X] It uses the High performance [SPDK](https://spdk.io) storage stack - (SPDK is an opensource NVMe project initiated by INTEL)
-> - [X] The hyper modern [IO_Uring](https://github.com/axboe/liburing) Linux Kernel Async polling-mode I/O Interface - (fastest kernel I/O mode possible)
+> :ballot_box_with_check: It uses the High performance [SPDK](https://spdk.io) storage stack - (SPDK is an opensource NVMe project initiated by INTEL)
+> :ballot_box_with_check: The hyper modern [IO_Uring](https://github.com/axboe/liburing) Linux Kernel Async polling-mode I/O Interface - (fastest kernel I/O mode possible)
 > - [X] Native abilties for RDMA and Zero-Copy I/O <BR>
 > - [X] NVMe-oF TCP Block storage Hyper-converged data fabric
 > - [X] Block layer volume replication
 > - [X] Logical volumes and Diskpool based data managment
 > - [X] a Native high peformance [Blobstore](https://spdk.io/doc/blob.html)
 > - [X] Native Block layer Thin provisoning
-> - [X] Native Block layer Snapshots and Clones
+> :ballot_box_with_check: Native Block layer Snapshots and Clones
 
 </details>
 <BR>
