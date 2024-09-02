@@ -121,7 +121,7 @@ We centralize all our community documentation in the [Community](https://github.
 ## Monthly community meeting
 OpenEBS holds a monthly community meeting via Zoom on the last Thursday of the month, at 7 am Pacific time.
 <br>
-The next meeting is on: `Thursday 29 August, at 14:00 UTC`
+The next meeting is on: `Thursday 26 September, at 14:00 UTC`
 <br>
 Meeting Link: https://us05web.zoom.us/j/87535654586?pwd=CigbXigJPn38USc6Vuzt7qSVFoO79X.1
 <br>
