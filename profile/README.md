@@ -108,9 +108,8 @@ Please review this roadmap and feel free to pass back any feedback on it, as wel
 <br>
 
 ## :star: GitHub Star Chart
-OpenEBS is the most successful Stateful Persistent Container Native Storage platform in the CNCF landscape. It has always held the #1 position and continues to as of today.
-
-[![XXXXXXXX](https://github.com/openebs/website/blob/main/website/public/images/png/github_star-history-2024_Feb_1.png)](https://www.openebs.io/)
+OpenEBS is committed to bringing Enterprise-grade data management to Kubernetes. More people trust OpenEBS with their enterprise's data than any other storage platform.
+[![Star History Chart](https://api.star-history.com/svg?repos=openebs/openebs&type=Date)](https://star-history.com/#openebs/openebs&Date)
 
 > [!IMPORTANT]
 > Our original founding team guides the project as Maintainers. Major sponsorship is provided by [DataCore](https://datacore.com), which donates a large team of dedicated Product Dev/Engineers, Product Mgmt, and operational resources. OpenEBS has hundreds of amazing contributors and storage engineers who provide ideas, feedback, and high-quality code to the project. - Everyone is welcome.
