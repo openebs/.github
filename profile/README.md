@@ -109,6 +109,7 @@ Please review this roadmap and feel free to pass back any feedback on it, as wel
 
 ## :star: GitHub Star Chart
 OpenEBS is committed to bringing Enterprise-grade data management to Kubernetes. More people trust OpenEBS with their enterprise's data than any other storage platform.
+
 [![Star History Chart](https://api.star-history.com/svg?repos=openebs/openebs&type=Date)](https://star-history.com/#openebs/openebs&Date)
 
 > [!IMPORTANT]
