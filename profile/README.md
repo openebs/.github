@@ -135,3 +135,5 @@ See [Vision](https://github.com/openebs/community/blob/develop/VISION.md) for mo
 ## New Contributors and Maintainers
 We are actively looking for new contributors and maintainers. Want to get involved, but not sure how? Please email the  maintainers at openebs.team@gmail.com
 
+## OpenEBS Community Code of Conduct
+OpenEBS follows the [CNCF Code of Conduct](https://github.com/cncf/foundation/blob/main/code-of-conduct.md).
