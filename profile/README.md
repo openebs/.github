@@ -2,40 +2,30 @@
 <!--- [![OpenEBS Social Banner](https://github.com/openebs/website/blob/HEAD/website/public/images/png/openebs_github_main_banner_HERO_1.png)](https://www.openebs.io/) -->
 [![OpenEBS Social Banner](https://github.com/openEBS/community/blob/HEAD/images/forest-road-game-pixel-art_HERO_banner.png)](https://www.openebs.io/)
 
-| Quick links  |  [``` CNCF OpenEBS website ```](https://www.openebs.io/)  |  [``` CNCF Product docs ```](https://www.openebs.io/docs)  | [``` Main Parent repo ```](https://github.com/openebs/openebs) |  [``` Community Cafe ```](https://github.com/openebs/community?tab=readme-ov-file#community-repo-cafe) |  [``` Community Meeting ```](https://github.com/openebs#monthly-community-meetings) |
-| :---:        |              :---:             |            :---:             |            :---:             |            :---:             | :---:        |
+| Quick links  |  [``` OpenEBS Website ```](https://www.openebs.io/)  |  [``` OpenEBS Docs ```](https://www.openebs.io/docs)  | [``` Main Repo ```](https://github.com/openebs/openebs) |  [``` Community Repo ```](https://github.com/openebs/community) |  [``` Community Meeting ```](https://github.com/openebs#monthly-community-meetings) |
 
 ---
 
-## Project Purpose
+## Overview
 
-OpenEBS is an open-source storage service for Kubernetes applications. OpenEBS manages the block storage and file systems based on the block storage for containers running in Kubernetes. Use OpenEBS for creating fast and resilient storage; with options for single-node, and replicated multi-node storage.
+### What is OpenEBS?
 
-OpenEBS is a Stateful Persistent block-mode Data Storage platform with a native virtual SAN fabric; for Kubernetes. We are a CNCF member project. We are the largest global community of K8s storage users.<BR>
-<BR>
-Our project team was an early pioneering inventor of K8s **Container Native Storage** services (we invented the term). We conceived the vision of a Stateful Persistent data platform for K8s that is tightly integrated and natively embedded into the core of K8s.<BR>
-<BR>
-We built an innovative High-performance Enterprise grade Block-mode Hyper-converged Storage virtual SAN Fabric that augments the storage services of K8s with Stateful Persistence, Enterprise Data mgmt, SSD/NVMe optimized I/O services, Replicated Data volumes, Thin Provisioning, Snapshot, Clones; and many other Mission critical data storage services that ```don't come``` in K8s out-of-the-box.<BR>
-<BR>
+OpenEBS is an open-source Container Native Storage solution that provides persistent storage for Kubernetes workloads. It enables dynamic provisioning of storage resources using containerized storage controllers, making it highly flexible and cloud-native. OpenEBS supports various storage engines, including LocalPVs for direct node storage and Replicated PV advanced data replication and resilience. It is desiganed to integrate seamlessly with Kubernetes, offering benefits like storage policies, reize, thin-provisiong, snapshots, and restore capabilities, making it an ideal choice for stateful applications.
 
-> **OpenEBS is very popular :** <BR>
-> Live OpenEBS systems actively report back product telemetry each day, to our Global Analytics system (unless disabled by the user).<BR>
->
-> :rocket: &nbsp; OpenEBS is a very popular Storage ```Platform``` for Kubernetes <BR>
-> :star: &nbsp; We have over [9k GitHub Stars](https://star-history.com/#openebs/openebs&Date) <BR>
-> :floppy_disk: &nbsp; We have been used to deploy millions of <kbd>Volumes</kbd> <BR>
+OpenEBS offers two primary storage options for Kubernetes workloads: Local Storage and Replicated Storage. Below is a comparative overview:
 
-<BR>
+| Feature                     | Local Storage                                                                 | Replicated Storage                                                                 |
+|-----------------------------|-------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| **Data Availability**       | Limited to the node where the volume is provisioned; not suitable for high-availability requirements.| Synchronously replicates data across multiple nodes, ensuring high availability and durability. |
+| **Use Cases**               | Ideal for applications managing their own replication and availability, such as distributed databases like MongoDB and Cassandra. | Suitable for stateful workloads requiring storage-level replication and high availability, like Percona/ Standalone DBs, and GitLab. |
+| **Performance**             | Provides near-disk performance with minimal overhead. | Designed for high performance, leveraging NVMe-oF semantics for low-latency access. |
+| **Limitations**             | Not highly available; node failure leads to data unavailability. | Requires sufficient resources (CPU, RAM, NVMe) for optimal performance. |
+| **Snapshot and Cloning**    | Supported when backed by advanced filesystems like LVM or ZFS. | Supported, providing enterprise storage capabilities. |
+| **Backup and Restore**      | Supported via Velero, using Restic for local volumes. | Supported via Velero, ensuring data protection and recovery.|
 
-[![Project Structure](https://github.com/openebs/community/blob/HEAD/images/island-beach_pixel-art_STORAGE-ENGINES_banner.png)](https://github.com/openebs/community/)
+In summary, **Local Storage** is a good choice when your application can manage its own replication and high availability, and **Replicated Storage** when you require storage-level replication and enhanced data durability.
 
-## Why OpenEBS?
-
-OpenEBS provides enterprise-grade data management for Kubernetes clusters, with five different storage engines (four single-node and one replicated) that meet a range of use cases for Kubernetes users. The five engines are summarized in the table below:
-<BR>
-> [!IMPORTANT]
-> The OpenEBS platform, provides 2 types of K8s Storage Services. ```Replicated PV``` and ```Local PV```.
-<BR>
+Below are the sub-projects or the major storage solutions under the OpenEBS Umbrella. Visit the individual repositories to learn more about their usage and architecture.
 
 | Engine | [Local PV HostPath](https://github.com/openebs/dynamic-localpv-provisioner) | [Local PV ZFS](https://github.com/openebs/zfs-localpv) | [Local PV LVM](https://github.com/openebs/lvm-localpv)  | [Local PV Rawfile](https://github.com/openebs/rawfile-localpv) | [Replicated PV Mayastor](https://github.com/openebs/mayastor) |
 | :---:  | :---              | :---         | :---         | :---:            | :---:                  |
@@ -44,30 +34,37 @@ OpenEBS provides enterprise-grade data management for Kubernetes clusters, with 
 | Designed for | Developers or DevOps | ZFS users and production deployments | LVM2 users and production deployments | Developers | Enterprises and production deployments |
 | Features | Everything in Kubernetes HostPath, plus: - Dynamic provisioning, Zero configuration, No CSI driver | Provision ZFS datasets, Provision ZFS volumes, Dynamic provisioning, ZFS resilience, ZFS RAID protection, CSI driver | Provision LVM2 volumes, Dynamic provisioning, LVM2 RAID protection, CSI driver | Provision file system from local files as persistent volumes, CSI driver | Replicated storage NVMe / RDMA, Snapshots, Clones, High availability, CSI driver|
 | Status | Stable, deployable in PROD  | Stable, deployable in PROD  | Stable, deployable in PROD  | Beta, undergoing evaluation & integration | Stable, deployable in PROD  |
-| Current Version | ![Releases](https://img.shields.io/github/release/openebs/dynamic-localpv-provisioner/all.svg?style=flat-square) | ![Releases](https://img.shields.io/github/release/openebs/zfs-localpv/all.svg?style=flat-square) | ![Releases](https://img.shields.io/github/release/openebs/lvm-localpv/all.svg?style=flat-square) | ![Tags](https://img.shields.io/github/v/tag/openebs/rawfile-localpv.svg?include_prereleases&style=flat-square) | ![Releases](https://img.shields.io/github/release/openebs/Mayastor/all.svg?style=flat-square) |
+| Current Version | [![Releases](https://img.shields.io/github/release/openebs/dynamic-localpv-provisioner/all.svg?style=flat-square)]() | ![Releases](https://img.shields.io/github/release/openebs/zfs-localpv/all.svg?style=flat-square) | [![Releases](https://img.shields.io/github/release/openebs/lvm-localpv/all.svg?style=flat-square)]() | [release v0.80](https://github.com/openebs/rawfile-localpv/releases/tag/0.8.0) | [![Releases](https://img.shields.io/github/release/openebs/Mayastor/all.svg?style=flat-square)]() |
 
-<BR>
+### Why OpenEBS?
 
-We are an Ultra modern Data storage platform stack that is strongly aligned with the cutting-edge direction of storage use cases in the K8s industry. OpenEBS is designed to facilitate modern K8s datastore architectures, key K8s I/O patterns, K8s data access methods, K8s data use-cases and where K8s Datastore applications are heading.
-<BR>
+OpenEBS offers several compelling advantages for managing storage in Kubernetes environments:
 
-OpenEBS is optimized for NVMe and SSD Flash storage media and integrates ultra-modern cutting-edge high-performance storage technologies at its core.</summary>
+- <b>Cloud-Native Architecture</b>: Designed as a cloud-native solution, OpenEBS integrates seamlessly with Kubernetes, most of the storage engines are CSI compliant.
+- <b>Solutions for wide range of workloads</b>: Solutions for both workloads which need or may not need replication.
+- <b>Avoidance of Cloud Lock-In</b>: By abstracting storage management, OpenEBS facilitates the movement of data across various Kubernetes environments, whether on-premises or in the cloud, thereby reducing dependency on a single cloud provider.
+- <b>Cost Efficiency</b>: With features like thin provisioning OpenEBS enables dynamic allocation of storage resources, potentially reducing storage by preventing overprovisioning and allowing for on-the-fly storage expansion.
+- <b>High Availability with Lower Blast Radius</b>: OpenEBS enhances application resilience by synchronously replicating data across multiple nodes, ensuring high availability. In the event of a node failure, only the data on that specific node is affected, minimizing the impact on the overall system.
 
->
-> :ballot_box_with_check: &nbsp; It uses the High performance [SPDK](https://spdk.io) storage stack - (SPDK is an open-source NVMe project initiated by INTEL) <BR>
-> :ballot_box_with_check: &nbsp; The hyper-modern [IO_Uring](https://github.com/axboe/liburing) Linux Kernel Async polling-mode I/O Interface - (fastest kernel I/O mode possible) <BR>
-> :ballot_box_with_check: &nbsp; Native abilities for RDMA and Zero-Copy I/O <BR>
-> :ballot_box_with_check: &nbsp; NVMe-oF TCP Block storage Hyper-converged data fabric <BR>
-> :ballot_box_with_check: &nbsp; Block layer volume replication <BR>
-> :ballot_box_with_check: &nbsp; Logical volumes and DiskPool based data management <BR>
-> :ballot_box_with_check: &nbsp; Native high performance [Blobstore](https://spdk.io/doc/blob.html) <BR>
-> :ballot_box_with_check: &nbsp; Native Block layer Thin provisioning <BR>
-> :ballot_box_with_check: &nbsp; Native Block layer Snapshots and Clones <BR>
+These features make OpenEBS a robust and flexible solution for managing persistent storage in Kubernetes environments.
 
-</details>
-<BR>
+### Documents
 
----
+- [Official Documentation](https://openebs.io/docs)
+- [Governance Documentation](https://github.com/openebs/community/blob/develop/GOVERNANCE.md)
+- [Contributing to OpenEBS](https://github.com/openebs/community/blob/develop/CONTRIBUTING.md)
+- [OpenEBS Security Guidelines](https://github.com/openebs/community/blob/develop/SECURITY.md)
+- [Release Process](./RELEASE.md)
+- [Roadmap Tracker](https://github.com/orgs/openebs/projects/78)
+
+### Community
+
+- Homepage: [openebs.io](https://openebs.io/)
+- Mailing list: openebs-team@googlegroups.com
+- Slack: [openebs slack](https://kubernetes.slack.com/messages/openebs)
+- Twitter: [openebs](https://twitter.com/intent/follow?screen_name=openebs)
+- Community Meeting: OpenEBS holds a monthly community meeting via Zoom on the last Thursday of the month, at 14:00 UTC. [Meeting Link](https://us05web.zoom.us/j/87535654586?pwd=CigbXigJPn38USc6Vuzt7qSVFoO79X.1)
+- Community Meeting Recordings: [Youtube]((https://www.youtube.com/@openebscommunity6021))
 
 > [!WARNING]
 >
@@ -88,46 +85,10 @@ The following engines have been archived and migrated:<BR>
 |  5  |  NDM              | Node Local storage   | ```deprecated``` & has been ```Migrated``` to [OpenEBS Archive](https://github.com/openebs-archive/node-disk-manager) | 29 Apr, 2024 |
 |  6  |  +43 other repos & projects<BR>(Total Repos migrated: 49)| 66% of Project's repos have been Archived  | Please see the [OpenEBS Archive org](https://github.com/openebs-archive/) | 29 Apr, 2024 |
 
-<BR>
-
----
-
-## :earth_americas: ROADMAP
-
-Our [Roadmap is here](https://github.com/openebs/openebs/blob/HEAD/ROADMAP.md) It defines a rich set of new features that are planned for 2024.<br>
-Please review this roadmap and feel free to pass back any feedback on it, as well as recommend and suggest new ideas. We welcome all of your feedback.
-<br>
-<br>
-
-## :star: GitHub Star Chart
-
-OpenEBS is committed to bringing Enterprise-grade data management to Kubernetes. More people trust OpenEBS with their enterprise's data than any other storage platform.
+## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=openebs/openebs&type=Date)](https://star-history.com/#openebs/openebs&Date)
 
-> [!IMPORTANT]
-> Our original founding team guides the project as Maintainers. Major sponsorship is provided by [DataCore](https://datacore.com), which donates a large team of dedicated Product Dev/Engineers, Product Mgmt, and operational resources. OpenEBS has hundreds of amazing contributors and storage engineers who provide ideas, feedback, and high-quality code to the project. Everyone is welcome.
+## OpenEBS is a [CNCF Sandbox Project](https://www.cncf.io/projects/openebs)
 
-## Community Resources
-
-We centralize all our community documentation in the [Community](https://github.com/openebs/community) repo. All sub-projects within the organization follow the same umbrella policies, except where stated in the sub-project readme.
-
-## Monthly Community Meetings
-
-OpenEBS holds a monthly community meeting via Zoom on the last Thursday of the month, at 14:00 UTC. \
-Meeting Link: <https://us05web.zoom.us/j/87535654586?pwd=CigbXigJPn38USc6Vuzt7qSVFoO79X.1>
-Starting from August 2024, the meetings are recorded and posted on YouTube: <https://www.youtube.com/@openebscommunity6021>
-
-## Other Resources
-
-Maintainers meet weekly and minute their meetings. A public record of the meetings is here. \
-See [Vision](https://github.com/openebs/community/blob/HEAD/VISION.md) for more detail on what we do, [Governance](https://github.com/openebs/community/blob/HEAD/GOVERNANCE.md) for how we do it, and [Contributing](https://github.com/openebs/community/blob/HEAD/CONTRIBUTING.md) for how to get involved
-
-## New Contributors and Maintainers
-
-We are actively looking for new contributors and maintainers.\
-Want to get involved, but not sure how? [Get in touch with us!](https://github.com/openebs/community/blob/develop/CONTRIBUTING.md#other-ways-to-keep-in-touch)
-
-## OpenEBS Community Code of Conduct
-
-OpenEBS follows the [CNCF Code of Conduct](https://github.com/cncf/foundation/blob/HEAD/code-of-conduct.md).
+![OpenEBS is a CNCF Sandbox Project](https://github.com/cncf/artwork/blob/main/other/cncf/horizontal/color/cncf-color.png)
