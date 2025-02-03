@@ -4,13 +4,19 @@
 
 | Quick links  |  [``` OpenEBS Website ```](https://www.openebs.io/)  |  [``` OpenEBS Docs ```](https://www.openebs.io/docs)  | [``` Main Repo ```](https://github.com/openebs/openebs) |  [``` Community Repo ```](https://github.com/openebs/community) |  [``` Community Meeting ```](https://github.com/openebs#monthly-community-meetings) |
 
----
+[![CNCF Status](https://img.shields.io/badge/cncf%20status-sandbox-blue.svg)](https://www.cncf.io/projects/openebs/)
+[![LICENSE](https://img.shields.io/github/license/openebs/openebs.svg)](./LICENSE)
+[![FOSSA Status](https://app.fossa.com/api/projects/custom%2B162%2Fgithub.com%2Fopenebs%2Fopenebs.svg?type=shield&issueType=license)](https://app.fossa.com/projects/custom%2B162%2Fgithub.com%2Fopenebs%2Fopenebs?ref=badge_shield&issueType=license)
+[![CLOMonitor](https://img.shields.io/endpoint?url=https://clomonitor.io/api/projects/cncf/openebs/badge)](https://clomonitor.io/projects/cncf/openebs)
+[![Slack](https://img.shields.io/badge/chat-slack-ff1493.svg?style=flat-square)](https://kubernetes.slack.com/messages/openebs)
+[![Community Meetings](https://img.shields.io/badge/Community-Meetings-blue)](https://us05web.zoom.us/j/87535654586?pwd=CigbXigJPn38USc6Vuzt7qSVFoO79X.1)
+[![Artifact HUB](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/openebs)](https://artifacthub.io/packages/helm/openebs/openebs)
 
 ## Overview
 
 ### What is OpenEBS?
 
-OpenEBS is an open-source Container Native Storage solution that provides persistent storage for Kubernetes workloads. It enables dynamic provisioning of storage resources using containerized storage controllers, making it highly flexible and cloud-native. OpenEBS supports various storage engines, including LocalPVs for direct node storage and Replicated PV advanced data replication and resilience. It is desiganed to integrate seamlessly with Kubernetes, offering benefits like storage policies, reize, thin-provisiong, snapshots, and restore capabilities, making it an ideal choice for stateful applications.
+OpenEBS is an open-source Container Native Storage solution that provides persistent storage for Kubernetes workloads. It enables dynamic provisioning of storage resources using containerized storage controllers, making it highly flexible and cloud-native. OpenEBS supports various storage engines, including LocalPVs for direct node storage and Replicated PV advanced data replication and resilience. It is desiganed to integrate seamlessly with Kubernetes, offering benefits like storage policies, resize, thin-provisiong, snapshots, and restore capabilities, making it an ideal choice for stateful applications.
 
 OpenEBS offers two primary storage options for Kubernetes workloads: Local Storage and Replicated Storage. Below is a comparative overview:
 
@@ -23,11 +29,11 @@ OpenEBS offers two primary storage options for Kubernetes workloads: Local Stora
 | **Snapshot and Cloning**    | Supported when backed by advanced filesystems like LVM or ZFS. | Supported, providing enterprise storage capabilities. |
 | **Backup and Restore**      | Supported via Velero, using Restic for local volumes. | Supported via Velero, ensuring data protection and recovery.|
 
-In summary, **Local Storage** is a good choice when your application can manage its own replication and high availability, and **Replicated Storage** when you require storage-level replication and enhanced data durability.
+In summary, **Local Storage** is a good choice when your application can manage its own replication and high availability, and **Replicated Storage** when you require storage-level replication, enhanced data durability and network-based storage access.
 
 Below are the sub-projects or the major storage solutions under the OpenEBS Umbrella. Visit the individual repositories to learn more about their usage and architecture.
 
-| Engine | [Local PV HostPath](https://github.com/openebs/dynamic-localpv-provisioner) | [Local PV ZFS](https://github.com/openebs/zfs-localpv) | [Local PV LVM](https://github.com/openebs/lvm-localpv)  | [Local PV Rawfile](https://github.com/openebs/rawfile-localpv) | [Replicated PV Mayastor](https://github.com/openebs/mayastor) |
+| Engine | [Local PV HostPath](https://github.com/openebs/dynamic-localpv-provisioner) | [Local PV ZFS](https://github.com/openebs/zfs-localpv) | [Local PV LVM](https://github.com/openebs/lvm-localpv)  | [Local PV Rawfile (Experimental)](https://github.com/openebs/rawfile-localpv) | [Replicated PV Mayastor](https://github.com/openebs/mayastor) |
 | :---:  | :---              | :---         | :---         | :---:            | :---:                  |
 | Type   | Single-node       | Single-node  | Single-node  |  Single-node     | Multi-node             |
 | What is it for?   | Replacement for in-Tree Kubernetes CSI HostPath       | Storage engine for ZFS managed backend storage  | Storage engine for LVM2 managed backend storage  |  Experimental engine for using an extent file as block storage     | General purpose replicated enterprise storage           |
