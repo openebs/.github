@@ -16,7 +16,7 @@
 
 ### What is OpenEBS?
 
-OpenEBS is an open-source Container Native Storage solution that provides persistent storage for Kubernetes workloads. It enables dynamic provisioning of storage resources using containerized storage controllers, making it highly flexible and cloud-native. OpenEBS supports various storage engines, including LocalPVs for direct node storage and Replicated PV advanced data replication and resilience. It is desiganed to integrate seamlessly with Kubernetes, offering benefits like storage policies, resize, thin-provisiong, snapshots, and restore capabilities, making it an ideal choice for stateful applications.
+OpenEBS is an open-source Container Native Storage solution that provides persistent storage for Kubernetes workloads. It enables dynamic provisioning of storage resources using containerized storage controllers, making it highly flexible and cloud-native. OpenEBS supports various storage engines, including LocalPVs for direct node storage and Replicated PV advanced data replication and resilience. It is designed to integrate seamlessly with Kubernetes, offering benefits like storage policies, resize, thin-provisioning, snapshots, and restore capabilities, making it an ideal choice for stateful applications.
 
 OpenEBS offers two primary storage options for Kubernetes workloads: Local Storage and Replicated Storage. Below is a comparative overview:
 
