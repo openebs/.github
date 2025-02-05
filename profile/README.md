@@ -1,8 +1,8 @@
 # Welcome to [OpenEBS](https://github.com/openebs/openebs)
-<!--- [![OpenEBS Social Banner](https://github.com/openebs/website/blob/HEAD/website/public/images/png/openebs_github_main_banner_HERO_1.png)](https://www.openebs.io/) -->
-[![OpenEBS Social Banner](https://github.com/openEBS/community/blob/HEAD/images/forest-road-game-pixel-art_HERO_banner.png)](https://www.openebs.io/)
 
 | Quick links  |  [``` OpenEBS Website ```](https://www.openebs.io/)  |  [``` OpenEBS Docs ```](https://www.openebs.io/docs)  | [``` Main Repo ```](https://github.com/openebs/openebs) |  [``` Community Repo ```](https://github.com/openebs/community) |  [``` Community Meeting ```](https://github.com/openebs#monthly-community-meetings) |
+| :---:        |              :---:             |            :---:             |            :---:             |            :---:             | :---:        |
+<br>
 
 [![CNCF Status](https://img.shields.io/badge/cncf%20status-sandbox-blue.svg)](https://www.cncf.io/projects/openebs/)
 [![LICENSE](https://img.shields.io/github/license/openebs/openebs.svg)](./LICENSE)
@@ -33,12 +33,12 @@ In summary, **Local Storage** is a good choice when your application can manage 
 
 Below are the sub-projects or the major storage solutions under the OpenEBS Umbrella. Visit the individual repositories to learn more about their usage and architecture.
 
-| Engine | [Local PV HostPath](https://github.com/openebs/dynamic-localpv-provisioner) | [Local PV ZFS](https://github.com/openebs/zfs-localpv) | [Local PV LVM](https://github.com/openebs/lvm-localpv)  | [Local PV Rawfile (Experimental)](https://github.com/openebs/rawfile-localpv) | [Replicated PV Mayastor](https://github.com/openebs/mayastor) |
+| Sub-Project | [Local PV Hostpath](https://github.com/openebs/dynamic-localpv-provisioner) | [Local PV ZFS](https://github.com/openebs/zfs-localpv) | [Local PV LVM](https://github.com/openebs/lvm-localpv)  | [Local PV Rawfile (Experimental)](https://github.com/openebs/rawfile-localpv) | [Mayastor](https://github.com/openebs/mayastor) |
 | :---:  | :---              | :---         | :---         | :---:            | :---:                  |
 | Type   | Single-node       | Single-node  | Single-node  |  Single-node     | Multi-node             |
-| What is it for?   | Replacement for in-Tree Kubernetes CSI HostPath       | Storage engine for ZFS managed backend storage  | Storage engine for LVM2 managed backend storage  |  Experimental engine for using an extent file as block storage     | General purpose replicated enterprise storage           |
+| What is it for?   | Replacement for in-Tree Kubernetes CSI Hostpath       | Storage engine for ZFS managed backend storage  | Storage engine for LVM2 managed backend storage  |  Experimental engine for using an extent file as block storage     | General purpose replicated enterprise storage           |
 | Designed for | Developers or DevOps | ZFS users and production deployments | LVM2 users and production deployments | Developers | Enterprises and production deployments |
-| Features | Everything in Kubernetes HostPath, plus: - Dynamic provisioning, Zero configuration, No CSI driver | Provision ZFS datasets, Provision ZFS volumes, Dynamic provisioning, ZFS resilience, ZFS RAID protection, CSI driver | Provision LVM2 volumes, Dynamic provisioning, LVM2 RAID protection, CSI driver | Provision file system from local files as persistent volumes, CSI driver | Replicated storage NVMe / RDMA, Snapshots, Clones, High availability, CSI driver|
+| Features | Everything in Kubernetes Hostpath, plus: - Dynamic provisioning, Zero configuration, No CSI driver | Provision ZFS datasets, Provision ZFS volumes, Dynamic provisioning, ZFS resilience, ZFS RAID protection, CSI driver | Provision LVM2 volumes, Dynamic provisioning, LVM2 RAID protection, CSI driver | Provision file system from local files as persistent volumes, CSI driver | Replicated storage NVMe / RDMA, Snapshots, Clones, High availability, CSI driver|
 | Status | Stable, deployable in PROD  | Stable, deployable in PROD  | Stable, deployable in PROD  | Beta, undergoing evaluation & integration | Stable, deployable in PROD  |
 | Current Version | [![Releases](https://img.shields.io/github/release/openebs/dynamic-localpv-provisioner/all.svg?style=flat-square)]() | ![Releases](https://img.shields.io/github/release/openebs/zfs-localpv/all.svg?style=flat-square) | [![Releases](https://img.shields.io/github/release/openebs/lvm-localpv/all.svg?style=flat-square)]() | [release v0.80](https://github.com/openebs/rawfile-localpv/releases/tag/0.8.0) | [![Releases](https://img.shields.io/github/release/openebs/Mayastor/all.svg?style=flat-square)]() |
 
@@ -70,14 +70,13 @@ These features make OpenEBS a robust and flexible solution for managing persiste
 - Slack: [openebs slack](https://kubernetes.slack.com/messages/openebs)
 - Twitter: [openebs](https://twitter.com/intent/follow?screen_name=openebs)
 - Community Meeting: OpenEBS holds a monthly community meeting via Zoom on the last Thursday of the month, at 14:00 UTC. [Meeting Link](https://us05web.zoom.us/j/87535654586?pwd=CigbXigJPn38USc6Vuzt7qSVFoO79X.1)
-- Community Meeting Recordings: [Youtube]((https://www.youtube.com/@openebscommunity6021))
+- Community Meeting Recordings: [Youtube](https://www.youtube.com/@openebscommunity6021)
 
+### Legacy Edition
+>
 > [!WARNING]
 >
-> ### ```LEGACY Edition```
->
 > Legacy engines have been <KBD> archived </KBD> and migrated out of the OpenEBS GitHub org and into [OpenEBS Archive org](https://github.com/openebs-archive/).
-<BR>
 
 The following engines have been archived and migrated:<BR>
 
