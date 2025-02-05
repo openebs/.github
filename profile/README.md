@@ -1,8 +1,8 @@
 # Welcome to [OpenEBS](https://github.com/openebs/openebs)
-<!--- [![OpenEBS Social Banner](https://github.com/openebs/website/blob/HEAD/website/public/images/png/openebs_github_main_banner_HERO_1.png)](https://www.openebs.io/) -->
-[![OpenEBS Social Banner](https://github.com/openEBS/community/blob/HEAD/images/forest-road-game-pixel-art_HERO_banner.png)](https://www.openebs.io/)
 
 | Quick links  |  [``` OpenEBS Website ```](https://www.openebs.io/)  |  [``` OpenEBS Docs ```](https://www.openebs.io/docs)  | [``` Main Repo ```](https://github.com/openebs/openebs) |  [``` Community Repo ```](https://github.com/openebs/community) |  [``` Community Meeting ```](https://github.com/openebs#monthly-community-meetings) |
+| :---:        |              :---:             |            :---:             |            :---:             |            :---:             | :---:        |
+<br>
 
 [![CNCF Status](https://img.shields.io/badge/cncf%20status-sandbox-blue.svg)](https://www.cncf.io/projects/openebs/)
 [![LICENSE](https://img.shields.io/github/license/openebs/openebs.svg)](./LICENSE)
@@ -33,7 +33,7 @@ In summary, **Local Storage** is a good choice when your application can manage 
 
 Below are the sub-projects or the major storage solutions under the OpenEBS Umbrella. Visit the individual repositories to learn more about their usage and architecture.
 
-| Engine | [Local PV HostPath](https://github.com/openebs/dynamic-localpv-provisioner) | [Local PV ZFS](https://github.com/openebs/zfs-localpv) | [Local PV LVM](https://github.com/openebs/lvm-localpv)  | [Local PV Rawfile (Experimental)](https://github.com/openebs/rawfile-localpv) | [Replicated PV Mayastor](https://github.com/openebs/mayastor) |
+| Sub-Project | [Local PV HostPath](https://github.com/openebs/dynamic-localpv-provisioner) | [Local PV ZFS](https://github.com/openebs/zfs-localpv) | [Local PV LVM](https://github.com/openebs/lvm-localpv)  | [Local PV Rawfile (Experimental)](https://github.com/openebs/rawfile-localpv) | [Mayastor](https://github.com/openebs/mayastor) |
 | :---:  | :---              | :---         | :---         | :---:            | :---:                  |
 | Type   | Single-node       | Single-node  | Single-node  |  Single-node     | Multi-node             |
 | What is it for?   | Replacement for in-Tree Kubernetes CSI HostPath       | Storage engine for ZFS managed backend storage  | Storage engine for LVM2 managed backend storage  |  Experimental engine for using an extent file as block storage     | General purpose replicated enterprise storage           |
@@ -70,11 +70,11 @@ These features make OpenEBS a robust and flexible solution for managing persiste
 - Slack: [openebs slack](https://kubernetes.slack.com/messages/openebs)
 - Twitter: [openebs](https://twitter.com/intent/follow?screen_name=openebs)
 - Community Meeting: OpenEBS holds a monthly community meeting via Zoom on the last Thursday of the month, at 14:00 UTC. [Meeting Link](https://us05web.zoom.us/j/87535654586?pwd=CigbXigJPn38USc6Vuzt7qSVFoO79X.1)
-- Community Meeting Recordings: [Youtube]((https://www.youtube.com/@openebscommunity6021))
+- Community Meeting Recordings: [Youtube](https://www.youtube.com/@openebscommunity6021)
 
-> [!WARNING]
+### Legacy Edition
 >
-> ### ```LEGACY Edition```
+> [!WARNING]
 >
 > Legacy engines have been <KBD> archived </KBD> and migrated out of the OpenEBS GitHub org and into [OpenEBS Archive org](https://github.com/openebs-archive/).
 <BR>
