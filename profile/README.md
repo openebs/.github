@@ -1,6 +1,6 @@
 # Welcome to [OpenEBS](https://github.com/openebs/openebs)
 
-| Quick links  |  [``` OpenEBS Website ```](https://www.openebs.io/)  |  [``` OpenEBS Docs ```](https://www.openebs.io/docs)  | [``` Main Repo ```](https://github.com/openebs/openebs) |  [``` Community Repo ```](https://github.com/openebs/community) |  [``` Community Meeting ```](https://github.com/openebs#monthly-community-meetings) |
+| Quick links  |  [``` OpenEBS Website ```](https://www.openebs.io/)  |  [``` OpenEBS Docs ```](https://www.openebs.io/docs)  | [``` Main Repo ```](https://github.com/openebs/openebs) |  [``` Community Repo ```](https://github.com/openebs/community) |  [``` Community Meeting ```](#community) |
 | :---:        |              :---:             |            :---:             |            :---:             |            :---:             | :---:        |
 <br>
 
